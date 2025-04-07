@@ -1,9 +1,9 @@
 {
   "name": "@zyridian/xyranthian",
-  "version": "1.0.0-beta.1",
+  "version": "1.0.0-beta.2",
   "description": "A design system for educational web applicaitons.",
   "publishConfig": {
-  "access": "public"
+    "access": "public"
   },
   "main": "index.js",
   "scripts": {
