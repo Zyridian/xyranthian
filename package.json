@@ -1,0 +1,30 @@
+{
+  "name": "@zyridian/xyranthian",
+  "version": "0.0.0",
+  "description": "A design system for educational web applicaitons.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zyridian/xyranthian.git"
+  },
+  "keywords": [
+    "design-system",
+    "components",
+    "react"
+  ],
+  "author": "kyledeguzmanx",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Zyridian/xyranthian/issues"
+  },
+  "homepage": "https://github.com/Zyridian/xyranthian#readme",
+  "devDependencies": {
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/npm": "^12.0.1",
+    "semantic-release": "^24.2.3"
+  }
+}
