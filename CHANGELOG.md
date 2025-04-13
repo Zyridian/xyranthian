@@ -1,3 +1,9 @@
+## [1.0.0-beta.4](https://github.com/Zyridian/xyranthian/compare/v1.0.0-beta.3...v1.0.0-beta.4) (2025-04-13)
+
+### Bug Fixes
+
+* update text storybook ([7132c96](https://github.com/Zyridian/xyranthian/commit/7132c963b7541792fa2b73e81a46c2ca3cda3403))
+
 ## [1.0.0-beta.3](https://github.com/Zyridian/xyranthian/compare/v1.0.0-beta.2...v1.0.0-beta.3) (2025-04-13)
 
 ### Features
