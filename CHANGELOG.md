@@ -1,3 +1,9 @@
+## [1.0.0-beta.3](https://github.com/Zyridian/xyranthian/compare/v1.0.0-beta.2...v1.0.0-beta.3) (2025-04-13)
+
+### Features
+
+* new repo foundations ([0297125](https://github.com/Zyridian/xyranthian/commit/02971251a2756c04bb878ecbb9f8b814ae0207ce))
+
 ## [1.0.0-beta.2](https://github.com/Zyridian/xyranthian/compare/v1.0.0-beta.1...v1.0.0-beta.2) (2025-04-07)
 
 ### Bug Fixes
