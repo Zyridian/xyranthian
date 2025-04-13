@@ -2,6 +2,7 @@ import type { Meta, StoryObj } from "@storybook/react";
 
 import  Text from "./Text";
 import { palette } from "../../foundations/palette";
+import { baseElementTags } from "./constants";
 
 const meta = {
   title: "Text",
@@ -11,7 +12,10 @@ const meta = {
   },
   tags: ["autodocs"],
   argTypes: {
-    
+    baseElement: {
+      control: "select",
+      options: baseElementTags,
+    },
     children: {
       control: "text",
     },
