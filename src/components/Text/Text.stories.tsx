@@ -64,7 +64,7 @@ export const H2Variant: Story = {
 };
 
 export const H3Variant: Story = {
-  name: "H2 Variant",
+  name: "H3 Variant",
   args: {
     variant: "h3"
   },
