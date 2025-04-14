@@ -6,10 +6,8 @@ export function SvgExclamationTriangle (props: SvgIconProps): JSX.Element{
         <svg
             xmlns="http://www.w3.org/2000/svg"
             fill={props.color}
-            
             height={props.size}
-            stroke="currentColor"
-            viewBox="0 0 24 24"
+            viewBox="0 0 512 512"
             width={props.size}
         >
             <path
