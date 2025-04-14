@@ -13,17 +13,22 @@ function Text({
     color = palette.neutral700,
     content,
     children,
+    id,
     variant = "bodyS",
 }: TextProps) {
     const Wrapper = BaseElementWrappers[baseElement];
 
     return (
-        <Wrapper style={{
-            color,
-            textAlign: align,
-            ...Typography[variant],
-            margin: 0,
-        }}>
+        <Wrapper
+            data-testid={id}
+            id={id}
+            style={{
+                color,
+                textAlign: align,
+                ...Typography[variant],
+                margin: 0,
+            }}
+        >
             {children ?? content}
         </Wrapper>
     );

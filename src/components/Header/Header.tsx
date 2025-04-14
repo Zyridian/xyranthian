@@ -12,6 +12,7 @@ import { HeaderProps, HeaderSizes } from "./types";
 function Header({
     align = "left",
     baseElement = "h1",
+    id,
     size="LG",
     subtext,
     startIcon,
@@ -20,7 +21,11 @@ function Header({
 }: HeaderProps) {
     const titleVariant = titleVariantMap[size];
     return (
-        <div style={{lineHeight: 1}}>
+        <div
+            data-testid={id}
+            id={id}
+            style={{lineHeight: 1}}
+        >
             {
                 typeof title === "string"
                     ? (

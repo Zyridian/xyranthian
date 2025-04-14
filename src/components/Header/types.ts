@@ -18,6 +18,10 @@ export interface HeaderProps {
      */
     baseElement?: BaseElementTypes;
     /**
+     * A unique identifier for an HTML element
+     */
+    id?: string;
+    /**
      * The size of the header component. This
      * affects the title and subtext.
      * @default "LG"

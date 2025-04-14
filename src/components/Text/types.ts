@@ -36,6 +36,10 @@ export interface TextProps {
      */
     content?: React.ReactNode;
     /**
+     * A unique identifier for an HTML element
+     */
+    id?: string;
+    /**
      * The variant of the Text
      * @default "bodyS"
      */
