@@ -1,3 +1,9 @@
+## [1.0.0-beta.8](https://github.com/Zyridian/xyranthian/compare/v1.0.0-beta.7...v1.0.0-beta.8) (2025-04-14)
+
+### Bug Fixes
+
+* add ids to text and Header components ([89bee68](https://github.com/Zyridian/xyranthian/commit/89bee68455eaa5e21fded92d4750a9366a2547bc))
+
 ## [1.0.0-beta.7](https://github.com/Zyridian/xyranthian/compare/v1.0.0-beta.6...v1.0.0-beta.7) (2025-04-14)
 
 ### Features
