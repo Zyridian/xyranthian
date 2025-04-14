@@ -1,3 +1,9 @@
+## [1.0.0-beta.5](https://github.com/Zyridian/xyranthian/compare/v1.0.0-beta.4...v1.0.0-beta.5) (2025-04-14)
+
+### Bug Fixes
+
+* update SVG for exclamation triangle icon ([4cfa605](https://github.com/Zyridian/xyranthian/commit/4cfa605ae6bd5dd5b55cd5f77217453531dcacd7))
+
 ## [1.0.0-beta.4](https://github.com/Zyridian/xyranthian/compare/v1.0.0-beta.3...v1.0.0-beta.4) (2025-04-13)
 
 ### Bug Fixes
