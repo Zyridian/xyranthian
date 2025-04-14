@@ -16,7 +16,7 @@ export interface TextProps {
     align?: "left" | "center" | "right" | "justify";
     /**
      * HTML tag to render
-     * @default <span> 
+     * @default <p>
      */
     baseElement?: BaseElementTypes;
     /**

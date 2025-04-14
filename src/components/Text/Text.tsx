@@ -21,7 +21,8 @@ function Text({
         <Wrapper style={{
             color,
             textAlign: align,
-            ...Typography[variant]
+            ...Typography[variant],
+            margin: 0,
         }}>
             {children ?? content}
         </Wrapper>
