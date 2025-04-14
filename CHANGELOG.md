@@ -1,3 +1,9 @@
+## [1.0.0-beta.7](https://github.com/Zyridian/xyranthian/compare/v1.0.0-beta.6...v1.0.0-beta.7) (2025-04-14)
+
+### Features
+
+* new Header component ([733ff7f](https://github.com/Zyridian/xyranthian/commit/733ff7fc64dce7970b4a47c0a9a2f690f3e188ee))
+
 ## [1.0.0-beta.6](https://github.com/Zyridian/xyranthian/compare/v1.0.0-beta.5...v1.0.0-beta.6) (2025-04-14)
 
 ### Bug Fixes
