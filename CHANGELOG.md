@@ -1,3 +1,9 @@
+## [1.0.0-beta.6](https://github.com/Zyridian/xyranthian/compare/v1.0.0-beta.5...v1.0.0-beta.6) (2025-04-14)
+
+### Bug Fixes
+
+* typo ([13ec0e6](https://github.com/Zyridian/xyranthian/commit/13ec0e660632c1a15c582346fdb08f0d1014477e))
+
 ## [1.0.0-beta.5](https://github.com/Zyridian/xyranthian/compare/v1.0.0-beta.4...v1.0.0-beta.5) (2025-04-14)
 
 ### Bug Fixes
