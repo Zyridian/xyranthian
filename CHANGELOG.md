@@ -1,3 +1,9 @@
+## [1.0.0-beta.9](https://github.com/Zyridian/xyranthian/compare/v1.0.0-beta.8...v1.0.0-beta.9) (2025-04-15)
+
+### Features
+
+* new Breadcrumb components & icons ([28c7de3](https://github.com/Zyridian/xyranthian/commit/28c7de3585d3e26817e08200cbd2c145e6fa7318))
+
 ## [1.0.0-beta.8](https://github.com/Zyridian/xyranthian/compare/v1.0.0-beta.7...v1.0.0-beta.8) (2025-04-14)
 
 ### Bug Fixes
