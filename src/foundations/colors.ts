@@ -33,6 +33,19 @@ export const Colors = {
   textPrimary: themeAware(palette.neutral900, palette.neutral050),
   textSecondary: themeAware(palette.neutral500, palette.neutral400),
 
+  /**
+   * Default link color
+   */
+  textMuted: themeAware(palette.neutral500, palette.neutral500),
+  /**
+   * Hover link color
+   */
+  textDefault: themeAware(palette.neutral800, palette.neutral800),
+  /**
+   * Active/current page
+   */
+  textStrong: themeAware(palette.neutral900, palette.neutral900),
+
   accent100: palette.primary600,
 
   success: palette.success500,
