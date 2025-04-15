@@ -10,6 +10,9 @@ import Icon, { IconSizes } from "../Icon";
 import { $breadcrumbGroupStyles, $breadcrumbListItemStyles } from "./styles";
 import { Colors } from "../../foundations";
 
+/**
+ * Breadcrumbs provide a navigational trail, showing users where they are and how they got there
+ */
 function Breadcrumbs ({
     id,
     items= [],

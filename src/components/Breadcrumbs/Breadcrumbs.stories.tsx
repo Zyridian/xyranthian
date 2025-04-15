@@ -2,8 +2,7 @@ import type { Meta, StoryObj } from '@storybook/react';
 import "../../styles/font.css"
 
 import  Breadcrumbs from './Breadcrumbs';
-import { palette } from '../../foundations/palette';
-import Icon, { IconSizes } from '../Icon';
+import Icon from '../Icon';
 
 const meta = {
   title: 'Breadcrumbs',
@@ -12,7 +11,7 @@ const meta = {
     layout: 'centered',
     docs: {
       description: {
-        component: "Breadcrumbss are used to visually represent actions, objects, or statuses across the interface."
+        component: "Breadcrumbs provide a navigational trail, showing users where they are and how they got there."
       }
     }
   },
