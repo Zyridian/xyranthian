@@ -1,3 +1,9 @@
+## [1.0.0-beta.10](https://github.com/Zyridian/xyranthian/compare/v1.0.0-beta.9...v1.0.0-beta.10) (2025-04-15)
+
+### Bug Fixes
+
+* update breadcrumbs description ([b295a32](https://github.com/Zyridian/xyranthian/commit/b295a32419b55f42c98f0d2313397165a70519c8))
+
 ## [1.0.0-beta.9](https://github.com/Zyridian/xyranthian/compare/v1.0.0-beta.8...v1.0.0-beta.9) (2025-04-15)
 
 ### Features
