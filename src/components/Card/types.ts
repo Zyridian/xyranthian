@@ -7,7 +7,11 @@ export interface CardProps {
     /**
      * Content displayed within the card
      */
-    children?: React.ReactNode;
+    children?: Array<React.ReactNode> | React.ReactNode;
+    /**
+     * A unique identifier for an HTML element
+     */
+    id?: string;
     /**
      * The maximum width of the card
      * @default "200px"

@@ -9,10 +9,13 @@ import { $baseStyles } from "./styles";
 function Card({
     backgroundColor = "#FFFFFF",
     children,
+    id,
     maxWidth = "200px",
 }: CardProps): JSX.Element {
     return (
         <div
+            data-testid={id}
+            id={id}
             style={{
                 backgroundColor,
                 maxWidth,

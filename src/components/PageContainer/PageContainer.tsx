@@ -12,6 +12,7 @@ function PageContainer({
     baseElement = "div",
     children,
     horizontalPadding = "24px",
+    id,
     maxWidth = "960px",
 }:PageContainerProps): JSX.Element {
     const Wrapper = BaseElementWrappers[baseElement];
@@ -23,7 +24,11 @@ function PageContainer({
     };
 
     return (
-        <Wrapper style={style}>
+        <Wrapper
+            data-testid={id}
+            id={id}
+            style={style}
+        >
             {children}
         </Wrapper>
     );
