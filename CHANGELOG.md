@@ -1,3 +1,10 @@
+## [1.0.0-beta.11](https://github.com/Zyridian/xyranthian/compare/v1.0.0-beta.10...v1.0.0-beta.11) (2025-04-16)
+
+### Features
+
+* new Card component ([670a1c1](https://github.com/Zyridian/xyranthian/commit/670a1c14e5231d40795f900a11b2fc3224089b34))
+* new PageContainer layout primitive ([fe40fbb](https://github.com/Zyridian/xyranthian/commit/fe40fbba4dec2c1bab985c3f319da52c7e00ca51))
+
 ## [1.0.0-beta.10](https://github.com/Zyridian/xyranthian/compare/v1.0.0-beta.9...v1.0.0-beta.10) (2025-04-15)
 
 ### Bug Fixes
