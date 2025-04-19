@@ -1,3 +1,9 @@
+## [1.0.0-beta.14](https://github.com/Zyridian/xyranthian/compare/v1.0.0-beta.13...v1.0.0-beta.14) (2025-04-19)
+
+### Features
+
+* new LessonCard component ([02c55f1](https://github.com/Zyridian/xyranthian/commit/02c55f18aabfb67d4ad93b424156d32b95c932e9))
+
 ## [1.0.0-beta.13](https://github.com/Zyridian/xyranthian/compare/v1.0.0-beta.12...v1.0.0-beta.13) (2025-04-19)
 
 ### Features
