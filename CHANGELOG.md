@@ -1,3 +1,14 @@
+## [1.0.0-beta.12](https://github.com/Zyridian/xyranthian/compare/v1.0.0-beta.11...v1.0.0-beta.12) (2025-04-19)
+
+### Features
+
+* new Section component ([8bc0c03](https://github.com/Zyridian/xyranthian/commit/8bc0c03f939da89001718637e5d1c9ad21b380db))
+* new Spacer component ([d468a61](https://github.com/Zyridian/xyranthian/commit/d468a617f48ce7210366497446a8e2928a6ca72a))
+
+### Bug Fixes
+
+* update children prop for Card and PageContainer ([084404d](https://github.com/Zyridian/xyranthian/commit/084404d09721b94f51e1f51aa15e5e86d7c4ac81))
+
 ## [1.0.0-beta.11](https://github.com/Zyridian/xyranthian/compare/v1.0.0-beta.10...v1.0.0-beta.11) (2025-04-16)
 
 ### Features
