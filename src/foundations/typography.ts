@@ -15,6 +15,7 @@ export const typeScale = {
   sizeBodyL: "18px",
   sizeBodyS: "16px",
   sizeLabel: "14px",
+  sizeMetadata: "12px",
   sizeCode: "15px",
 
   // Font weights
