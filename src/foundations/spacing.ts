@@ -11,3 +11,5 @@ export const Spacing = {
   spacing9: "48px",
   spacing10: "64px",
 };
+
+export type SpacingVariants = keyof typeof Spacing;
