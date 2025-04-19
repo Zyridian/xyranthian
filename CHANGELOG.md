@@ -1,3 +1,9 @@
+## [1.0.0-beta.13](https://github.com/Zyridian/xyranthian/compare/v1.0.0-beta.12...v1.0.0-beta.13) (2025-04-19)
+
+### Features
+
+* new side navigation component ([2e62f76](https://github.com/Zyridian/xyranthian/commit/2e62f76e09ec89f0b7fd531041a144b602b3140f))
+
 ## [1.0.0-beta.12](https://github.com/Zyridian/xyranthian/compare/v1.0.0-beta.11...v1.0.0-beta.12) (2025-04-19)
 
 ### Features
