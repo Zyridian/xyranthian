@@ -8,10 +8,12 @@ import { SpacerProps } from "./types";
  * elements within containers.
  */
 function Spacer({
+    alignItems,
     baseElement = "div",
     children,
     direction = "column",
     id,
+    justifyContent,
     size = "spacing5"
 }: SpacerProps): JSX.Element {
     const Wrapper = BaseElementWrappers[baseElement];
@@ -28,9 +30,11 @@ function Spacer({
     }
 
     const $baseStyles: React.CSSProperties = {
+        alignItems,
         display: "flex",
         flexDirection: direction,
         gap: Spacing[size],
+        justifyContent,
     };
 
     return (
