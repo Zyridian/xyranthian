@@ -1,3 +1,9 @@
+## [1.0.0-beta.17](https://github.com/Zyridian/xyranthian/compare/v1.0.0-beta.16...v1.0.0-beta.17) (2025-04-20)
+
+### Features
+
+* new Flashbar component ([62aafeb](https://github.com/Zyridian/xyranthian/commit/62aafebe9f6b237979526c1212b38562dfbce1c6))
+
 ## [1.0.0-beta.16](https://github.com/Zyridian/xyranthian/compare/v1.0.0-beta.15...v1.0.0-beta.16) (2025-04-20)
 
 ### Features
