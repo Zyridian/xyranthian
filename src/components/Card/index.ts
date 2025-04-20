@@ -1,5 +1,5 @@
 import Card from "./Card";
-import { CardProps } from "./types";
+import { type CardProps } from "./types";
 
 export default Card;
-export { CardProps };
+export { type CardProps };
