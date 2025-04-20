@@ -1,3 +1,9 @@
+## [1.0.0-beta.16](https://github.com/Zyridian/xyranthian/compare/v1.0.0-beta.15...v1.0.0-beta.16) (2025-04-20)
+
+### Features
+
+* new Grid ([2242eaa](https://github.com/Zyridian/xyranthian/commit/2242eaa89038da43ba77c77dd09909417e446fd5))
+
 ## [1.0.0-beta.15](https://github.com/Zyridian/xyranthian/compare/v1.0.0-beta.14...v1.0.0-beta.15) (2025-04-20)
 
 ### Features
