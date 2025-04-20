@@ -1,3 +1,9 @@
+## [1.0.0-beta.15](https://github.com/Zyridian/xyranthian/compare/v1.0.0-beta.14...v1.0.0-beta.15) (2025-04-20)
+
+### Features
+
+* new ModuleCard component ([f8e6280](https://github.com/Zyridian/xyranthian/commit/f8e6280f8ba828bb21e6e0b66a9a0484e1fb4395))
+
 ## [1.0.0-beta.14](https://github.com/Zyridian/xyranthian/compare/v1.0.0-beta.13...v1.0.0-beta.14) (2025-04-19)
 
 ### Features
