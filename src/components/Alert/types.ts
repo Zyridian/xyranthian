@@ -35,5 +35,5 @@ export interface AlertProps extends React.AriaAttributes {
      * The width of the alert
      * @default "100%"
      */
-    width?: string | number;
+    width?: React.CSSProperties["width"];
 }

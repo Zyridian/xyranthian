@@ -8,7 +8,7 @@ export interface SpacerProps {
      * Controls the alignment of items on the cross axis
      * @see https://developer.mozilla.org/en-US/docs/Web/CSS/align-items
      */
-    alignItems?:  "center" | "end" | "flex-end" | "flex-start" | "self-end" | "self-start" | "start";
+    alignItems?: React.CSSProperties["alignItems"];
     /**
      * HTML tag to render
      * @default <div>
@@ -24,7 +24,7 @@ export interface SpacerProps {
      * The default "column" assumes content flows vertically.
      * @default "column"
      */
-    direction?: "row" | "column" | "row-reverse" | "column-reverse",
+    direction?: React.CSSProperties["flexDirection"];
     /**
      * A unique identifier for an HTML element
      */
@@ -33,7 +33,7 @@ export interface SpacerProps {
      * Controls how the browser distributes space between and around content items along the main axis
      * @see https://developer.mozilla.org/en-US/docs/Web/CSS/justify-content
      */
-    justifyContent?: "space-around" | "space-between" | "space-evenly" | "stretch" |  "center" | "end" | "flex-end" | "flex-start" | "start";
+    justifyContent?: React.CSSProperties["justifyContent"];
     /**
     /**
      * The space between items

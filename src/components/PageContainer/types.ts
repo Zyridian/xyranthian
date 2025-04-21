@@ -25,5 +25,5 @@ export interface PageContainerProps {
      * The maximum width of the page
      * @default "960px"
      */
-    maxWidth?: string;
+    maxWidth?: React.CSSProperties["maxWidth"];
 }

@@ -32,5 +32,5 @@ export interface SectionProps {
      * The width of the Section
      * @default "100%"
      */
-    width?: string;
+    width?: React.CSSProperties["width"];
 }

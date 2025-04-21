@@ -28,7 +28,7 @@ export interface TextProps {
      * Optional text color
      * @default "#1C1C1C"
      */
-    color?: string;
+    color?: React.CSSProperties["color"];
     /**
      * The text rendered to the screen.
      * If `children` are defined, the children will have priority.

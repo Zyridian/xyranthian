@@ -34,12 +34,12 @@ export interface ModuleCardProps {
      * The maximum width of the card
      * @default "360px"
      */
-    maxWidth?: string;
+    maxWidth?: React.CSSProperties["maxWidth"];
     /**
      * The minimum height of the card
      * @default "180px"
      */
-    minHeight?: string;
+    minHeight?: React.CSSProperties["minWidth"];
     /**
      * Callback function called when the Lesson Card is clicked.
      */
@@ -108,10 +108,10 @@ export interface ModuleProgressbarColors {
     /**
      * The background color of the progress bar
      */
-    backgroundColor?: string;
+    backgroundColor?: React.CSSProperties["backgroundColor"];
     /**
      * The color of the progress bar. This is overlaid over
      * the background color.
      */
-    fillColor?: string;
+    fillColor?: React.CSSProperties["backgroundColor"];
 }

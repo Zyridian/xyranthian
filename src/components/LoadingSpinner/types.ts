@@ -5,7 +5,7 @@ export interface LoadingSpinnerProps extends React.AriaAttributes {
      * The color of the icon
      * @default "#2563EB"
      */
-    color?: string;
+    color?: React.CSSProperties["borderColor"];
     /**
      * A unique identifier for an HTML element
      */

@@ -16,5 +16,5 @@ export interface CardProps {
      * The maximum width of the card
      * @default "200px"
      */
-    maxWidth?: string;
+    maxWidth?: React.CSSProperties["maxWidth"];
 }
