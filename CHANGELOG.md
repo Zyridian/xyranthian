@@ -1,3 +1,9 @@
+## [1.0.0-beta.18](https://github.com/Zyridian/xyranthian/compare/v1.0.0-beta.17...v1.0.0-beta.18) (2025-04-21)
+
+### Features
+
+* new loading spinner ([a4d3dc5](https://github.com/Zyridian/xyranthian/commit/a4d3dc556dfa47353e62e58bfdfc3d9c56e366e1))
+
 ## [1.0.0-beta.17](https://github.com/Zyridian/xyranthian/compare/v1.0.0-beta.16...v1.0.0-beta.17) (2025-04-20)
 
 ### Features
