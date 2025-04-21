@@ -1,3 +1,9 @@
+## [1.0.0-beta.20](https://github.com/Zyridian/xyranthian/compare/v1.0.0-beta.19...v1.0.0-beta.20) (2025-04-21)
+
+### Features
+
+* update CSS properties ([0c5ac9c](https://github.com/Zyridian/xyranthian/commit/0c5ac9cb42184fc34c0e832c21a61b4437690782))
+
 ## [1.0.0-beta.19](https://github.com/Zyridian/xyranthian/compare/v1.0.0-beta.18...v1.0.0-beta.19) (2025-04-21)
 
 ### Features
