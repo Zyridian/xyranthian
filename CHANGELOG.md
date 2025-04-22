@@ -1,3 +1,9 @@
+## [1.0.0-beta.21](https://github.com/Zyridian/xyranthian/compare/v1.0.0-beta.20...v1.0.0-beta.21) (2025-04-22)
+
+### Features
+
+* new Challenge Prompt component ([df56583](https://github.com/Zyridian/xyranthian/commit/df5658389d201a58ea3534b624cbf592b2abe212))
+
 ## [1.0.0-beta.20](https://github.com/Zyridian/xyranthian/compare/v1.0.0-beta.19...v1.0.0-beta.20) (2025-04-21)
 
 ### Features
