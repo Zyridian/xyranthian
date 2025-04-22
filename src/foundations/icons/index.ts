@@ -12,6 +12,7 @@ import { SvgHome } from "./home";
 import { SvgInfoCircle } from "./info-circle";
 import { SvgInfoCircleOutline } from "./info-circle-outline";
 import { SvgLock } from "./lock";
+import { SvgTarget } from "./target";
 import { SvgUnlock } from "./unlock";
 import { SvgXCircle } from "./x-circle";
 import { SvgXCircleOutline } from "./x-circle-outline";
@@ -32,6 +33,7 @@ export const Icons = {
     "info-circle": SvgInfoCircle,
     "info-circle-outline": SvgInfoCircleOutline,
     "lock": SvgLock,
+    "target": SvgTarget,
     "unlock": SvgUnlock,
     "x-circle": SvgXCircle,
     "x-circle-outline": SvgXCircleOutline,

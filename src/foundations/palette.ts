@@ -27,6 +27,9 @@ export const palette = {
   error500: "#EF4444",
 
   indigo500: "#6366F1",
+  indigo600: "#2d2ca6",
+  indigo900: "#100a51",
+
   coral500: "#FB7185",
   sky500: "#38BDF8",
   emerald500: "#34D399",
