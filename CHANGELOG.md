@@ -1,3 +1,9 @@
+## [1.0.0-beta.24](https://github.com/Zyridian/xyranthian/compare/v1.0.0-beta.23...v1.0.0-beta.24) (2025-04-22)
+
+### Bug Fixes
+
+* update index files ([28bb8da](https://github.com/Zyridian/xyranthian/commit/28bb8da58d4a73689ad655390c4ae093197e49f4))
+
 ## [1.0.0-beta.23](https://github.com/Zyridian/xyranthian/compare/v1.0.0-beta.22...v1.0.0-beta.23) (2025-04-22)
 
 ### Features
