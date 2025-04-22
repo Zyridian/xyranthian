@@ -1,3 +1,9 @@
+## [1.0.0-beta.23](https://github.com/Zyridian/xyranthian/compare/v1.0.0-beta.22...v1.0.0-beta.23) (2025-04-22)
+
+### Features
+
+* update Toast exports ([8ff6f79](https://github.com/Zyridian/xyranthian/commit/8ff6f79883265b58297b634c7c3ff1fdf505b071))
+
 ## [1.0.0-beta.22](https://github.com/Zyridian/xyranthian/compare/v1.0.0-beta.21...v1.0.0-beta.22) (2025-04-22)
 
 ### Features
