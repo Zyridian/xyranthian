@@ -1,3 +1,9 @@
+## [1.0.0-beta.22](https://github.com/Zyridian/xyranthian/compare/v1.0.0-beta.21...v1.0.0-beta.22) (2025-04-22)
+
+### Features
+
+* new Toast component ([53b4934](https://github.com/Zyridian/xyranthian/commit/53b49347f5b8f5653c7e14ac2ae56d968abea337))
+
 ## [1.0.0-beta.21](https://github.com/Zyridian/xyranthian/compare/v1.0.0-beta.20...v1.0.0-beta.21) (2025-04-22)
 
 ### Features
