@@ -1,5 +1,5 @@
 import ChallengePrompt from "./ChallengePrompt";
-import { ChallengePromptProps } from "./types";
+import { type ChallengePromptProps } from "./types";
 
 export default ChallengePrompt;
-export { ChallengePromptProps };
+export { type ChallengePromptProps };

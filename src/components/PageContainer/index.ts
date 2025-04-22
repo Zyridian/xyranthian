@@ -1,5 +1,5 @@
 import PageContainer from "./PageContainer";
-import { PageContainerProps } from "./types";
+import { type PageContainerProps } from "./types";
 
 export default PageContainer;
-export { PageContainerProps };
+export { type PageContainerProps };

@@ -1,5 +1,11 @@
 import SideNavigation from "./SideNavigation";
-import { NavigationItem, SideNavigationProps } from "./types";
+import {
+    type NavigationItem,
+    type SideNavigationProps,
+} from "./types";
 
 export default SideNavigation;
-export { NavigationItem, SideNavigationProps };
+export {
+    type NavigationItem,
+    type SideNavigationProps,
+};

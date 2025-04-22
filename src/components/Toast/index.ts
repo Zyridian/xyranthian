@@ -11,4 +11,5 @@ export {
     type ToastProps,
     type ToastVariants,
     type ShowToastInput,
+    ToastProvider,
 };

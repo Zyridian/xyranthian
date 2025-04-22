@@ -1,5 +1,8 @@
 import Button from "./Button";
-import { ButtonProps, ButtonVariants } from "./types";
+import {
+    type ButtonProps,
+    type ButtonVariants,
+} from "./types";
 
 export default Button;
 export {

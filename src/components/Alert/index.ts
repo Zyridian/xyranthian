@@ -1,5 +1,11 @@
 import Alert from "./Alert";
-import { AlertProps, AlertVariants } from "./types";
+import {
+    type AlertProps,
+    type AlertVariants,
+} from "./types";
 
 export default Alert;
-export { AlertProps, AlertVariants};
+export {
+    type AlertProps,
+    type AlertVariants,
+};

@@ -1,5 +1,11 @@
 import Breadcrumbs from "./Breadcrumbs";
-import { BreadcrumbItemProps, BreadcrumbsProps } from "./types";
+import {
+    type BreadcrumbItemProps,
+    type BreadcrumbsProps,
+} from "./types";
 
 export default Breadcrumbs;
-export { BreadcrumbItemProps, BreadcrumbsProps };
+export {
+    type BreadcrumbItemProps,
+    type BreadcrumbsProps,
+};

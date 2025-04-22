@@ -1,5 +1,5 @@
 import Icon, { IconSizes } from "./Icon";
-import { IconProps } from "./types";
+import { type IconProps } from "./types";
 
 export default Icon;
 export { IconSizes, type IconProps };

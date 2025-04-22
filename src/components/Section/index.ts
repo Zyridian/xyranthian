@@ -1,5 +1,11 @@
 import Section from "./Section";
-import { SectionProps, SectionVariants } from "./types";
+import {
+    type SectionProps,
+    type SectionVariants,
+} from "./types";
 
 export default Section;
-export { SectionProps, SectionVariants };
+export {
+    type SectionProps,
+    type SectionVariants,
+};
