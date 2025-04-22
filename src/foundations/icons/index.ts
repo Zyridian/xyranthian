@@ -6,6 +6,7 @@ import { SvgCheckmarkCircle } from "./checkmark-circle";
 import { SvgCheckmarkCircleOutline } from "./checkmark-circle-outline";
 import { SvgChevronRight } from "./chevron-right";
 import { SvgClock } from "./clock";
+import { SvgExclamationCircle } from "./exclamation-circle";
 import { SvgExclamationTriangle } from "./exclamation-triangle";
 import { SvgExclamationTriangleOutline } from "./exclamation-triangle-outline";
 import { SvgHome } from "./home";
@@ -27,6 +28,7 @@ export const Icons = {
     "checkmark-circle-outline": SvgCheckmarkCircleOutline,
     "chevron-right": SvgChevronRight,
     "clock": SvgClock,
+    "exclamation-circle": SvgExclamationCircle,
     "exclamation-triangle": SvgExclamationTriangle,
     "exclamation-triangle-outline": SvgExclamationTriangleOutline,
     "home": SvgHome,
