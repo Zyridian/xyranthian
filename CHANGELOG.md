@@ -1,3 +1,9 @@
+## [1.0.0-beta.26](https://github.com/Zyridian/xyranthian/compare/v1.0.0-beta.25...v1.0.0-beta.26) (2025-04-24)
+
+### Bug Fixes
+
+* update storybook args ([87634bb](https://github.com/Zyridian/xyranthian/commit/87634bb24692a3e297df09d92197f3e442092c7b))
+
 ## [1.0.0-beta.25](https://github.com/Zyridian/xyranthian/compare/v1.0.0-beta.24...v1.0.0-beta.25) (2025-04-24)
 
 ### Features
