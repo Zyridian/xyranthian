@@ -1,3 +1,4 @@
+import { SvgArrowUpRight } from "./arrow-up-right";
 import { SvgCaretDown } from "./caret-down";
 import { SvgCaretLeft } from "./caret-left";
 import { SvgCaretRight } from "./caret-right";
@@ -5,6 +6,7 @@ import { SvgCaretUp } from "./caret-up";
 import { SvgCheckmarkCircle } from "./checkmark-circle";
 import { SvgCheckmarkCircleOutline } from "./checkmark-circle-outline";
 import { SvgChevronRight } from "./chevron-right";
+import { SvgClipboard } from "./copy";
 import { SvgClock } from "./clock";
 import { SvgExclamationCircle } from "./exclamation-circle";
 import { SvgExclamationTriangle } from "./exclamation-triangle";
@@ -20,6 +22,7 @@ import { SvgXCircleOutline } from "./x-circle-outline";
 import { SvgXMark } from "./x-mark";
 
 export const Icons = {
+    "arrow-up-right": SvgArrowUpRight,
     "caret-down": SvgCaretDown,
     "caret-left": SvgCaretLeft,
     "caret-right": SvgCaretRight,
@@ -27,6 +30,7 @@ export const Icons = {
     "checkmark-circle": SvgCheckmarkCircle,
     "checkmark-circle-outline": SvgCheckmarkCircleOutline,
     "chevron-right": SvgChevronRight,
+    "copy": SvgClipboard,
     "clock": SvgClock,
     "exclamation-circle": SvgExclamationCircle,
     "exclamation-triangle": SvgExclamationTriangle,
