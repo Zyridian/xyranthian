@@ -1,3 +1,9 @@
+## [1.0.0-beta.25](https://github.com/Zyridian/xyranthian/compare/v1.0.0-beta.24...v1.0.0-beta.25) (2025-04-24)
+
+### Features
+
+* new Icon Button ([76dd71e](https://github.com/Zyridian/xyranthian/commit/76dd71ede0595891136aaf893999137208157ad6))
+
 ## [1.0.0-beta.24](https://github.com/Zyridian/xyranthian/compare/v1.0.0-beta.23...v1.0.0-beta.24) (2025-04-22)
 
 ### Bug Fixes
