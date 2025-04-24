@@ -33,6 +33,9 @@ console.log(add(7,7));
 // Output: 14`,
     label: "Javascript",
     language: "javascript",
+    maxWidth: "800px",
+    minWidth: "320px",
+    width: "100%",
   },
 };
 
