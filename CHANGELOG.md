@@ -1,3 +1,9 @@
+## [1.0.0-beta.28](https://github.com/Zyridian/xyranthian/compare/v1.0.0-beta.27...v1.0.0-beta.28) (2025-04-25)
+
+### Features
+
+* new Textfield component ([d9f7954](https://github.com/Zyridian/xyranthian/commit/d9f7954520a8a0a2d5876bfae4f72b877e179746))
+
 ## [1.0.0-beta.27](https://github.com/Zyridian/xyranthian/compare/v1.0.0-beta.26...v1.0.0-beta.27) (2025-04-25)
 
 ### Features
