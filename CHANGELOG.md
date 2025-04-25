@@ -1,3 +1,9 @@
+## [1.0.0-beta.27](https://github.com/Zyridian/xyranthian/compare/v1.0.0-beta.26...v1.0.0-beta.27) (2025-04-25)
+
+### Features
+
+* new InlineCode component ([be33dd4](https://github.com/Zyridian/xyranthian/commit/be33dd48dcf5f7cafc32502d38f3701c7ced2c01))
+
 ## [1.0.0-beta.26](https://github.com/Zyridian/xyranthian/compare/v1.0.0-beta.25...v1.0.0-beta.26) (2025-04-24)
 
 ### Bug Fixes
