@@ -1,3 +1,9 @@
+## [1.0.0-beta.29](https://github.com/Zyridian/xyranthian/compare/v1.0.0-beta.28...v1.0.0-beta.29) (2025-04-26)
+
+### Features
+
+* new Avatar component ([d75c293](https://github.com/Zyridian/xyranthian/commit/d75c293c65449c2b0e82ee98883c7f42192a7518))
+
 ## [1.0.0-beta.28](https://github.com/Zyridian/xyranthian/compare/v1.0.0-beta.27...v1.0.0-beta.28) (2025-04-25)
 
 ### Features
