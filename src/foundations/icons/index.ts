@@ -20,9 +20,11 @@ import { SvgUnlock } from "./unlock";
 import { SvgXCircle } from "./x-circle";
 import { SvgXCircleOutline } from "./x-circle-outline";
 import { SvgXMark } from "./x-mark";
+import { SvgAvatar } from "./avatar";
 
 export const Icons = {
     "arrow-up-right": SvgArrowUpRight,
+    "avatar": SvgAvatar,
     "caret-down": SvgCaretDown,
     "caret-left": SvgCaretLeft,
     "caret-right": SvgCaretRight,
