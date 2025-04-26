@@ -1,3 +1,9 @@
+## [1.0.0-beta.32](https://github.com/Zyridian/xyranthian/compare/v1.0.0-beta.31...v1.0.0-beta.32) (2025-04-26)
+
+### Features
+
+* new Accordion component ([a2443de](https://github.com/Zyridian/xyranthian/commit/a2443ded1ba31bb911d30f1a1389ad4ee9b0f584))
+
 ## [1.0.0-beta.31](https://github.com/Zyridian/xyranthian/compare/v1.0.0-beta.30...v1.0.0-beta.31) (2025-04-26)
 
 ### Features
