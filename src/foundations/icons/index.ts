@@ -21,6 +21,9 @@ import { SvgXCircle } from "./x-circle";
 import { SvgXCircleOutline } from "./x-circle-outline";
 import { SvgXMark } from "./x-mark";
 import { SvgAvatar } from "./avatar";
+import { SvgChevronLeft } from "./chevron-left";
+import { SvgChevronUp } from "./chevron-up";
+import { SvgChevronDown } from "./chevron-down";
 
 export const Icons = {
     "arrow-up-right": SvgArrowUpRight,
@@ -31,7 +34,10 @@ export const Icons = {
     "caret-up": SvgCaretUp,
     "checkmark-circle": SvgCheckmarkCircle,
     "checkmark-circle-outline": SvgCheckmarkCircleOutline,
+    "chevron-down": SvgChevronDown,
+    "chevron-left": SvgChevronLeft,
     "chevron-right": SvgChevronRight,
+    "chevron-up": SvgChevronUp,
     "copy": SvgClipboard,
     "clock": SvgClock,
     "exclamation-circle": SvgExclamationCircle,

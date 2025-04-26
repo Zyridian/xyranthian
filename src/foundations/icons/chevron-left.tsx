@@ -2,7 +2,7 @@
 import { JSX } from "react";
 import { SvgIconProps } from "./types";
 
-export function SvgChevronRight (props: SvgIconProps): JSX.Element{
+export function SvgChevronLeft (props: SvgIconProps): JSX.Element{
     return (
         <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -15,7 +15,7 @@ export function SvgChevronRight (props: SvgIconProps): JSX.Element{
             stroke-linecap="round"
             stroke-linejoin="round"
         >
-            <path d="m9 18 6-6-6-6"/>
+            <path d="m15 18-6-6 6-6"/>
         </svg>
     );
 }
