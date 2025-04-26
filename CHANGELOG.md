@@ -1,3 +1,9 @@
+## [1.0.0-beta.31](https://github.com/Zyridian/xyranthian/compare/v1.0.0-beta.30...v1.0.0-beta.31) (2025-04-26)
+
+### Features
+
+* new Expandable Dropdown ([9c8d10f](https://github.com/Zyridian/xyranthian/commit/9c8d10fd8ab9b615dcf07b7b1dac97bc02e5141f))
+
 ## [1.0.0-beta.30](https://github.com/Zyridian/xyranthian/compare/v1.0.0-beta.29...v1.0.0-beta.30) (2025-04-26)
 
 ### Features
