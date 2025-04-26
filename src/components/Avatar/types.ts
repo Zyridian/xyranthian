@@ -8,6 +8,10 @@ export interface AvatarProps extends React.AriaAttributes {
      */
     alt?: string;
     /**
+     * A unique identifier for an HTML element
+     */
+    id?: string;
+    /**
      * Placeholder SVG, Xyranthian Icon, or Image shown when avatar
      * source is not specified.
      * @default <Icon variant="avatar" size={size} />

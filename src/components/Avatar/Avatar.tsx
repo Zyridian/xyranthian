@@ -9,6 +9,7 @@ import { AvatarProps } from "./types";
  */
 function Avatar({
     alt = "",
+    id,
     placeholderImage: placeholder,
     size = 24,
     src,
@@ -39,6 +40,8 @@ function Avatar({
 
     return (
         <div
+            data-testid={id}
+            id={id}
             role={src ? undefined : "presentation"}
             aria-hidden={src ? undefined : "true"}
             style={$rootDivStyles}
