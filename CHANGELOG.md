@@ -1,3 +1,9 @@
+## [1.0.0-beta.30](https://github.com/Zyridian/xyranthian/compare/v1.0.0-beta.29...v1.0.0-beta.30) (2025-04-26)
+
+### Features
+
+* new AvatarGroup component ([96cbcb6](https://github.com/Zyridian/xyranthian/commit/96cbcb6ffe7b68a0df14fddcef7313f4ee16ac4d))
+
 ## [1.0.0-beta.29](https://github.com/Zyridian/xyranthian/compare/v1.0.0-beta.28...v1.0.0-beta.29) (2025-04-26)
 
 ### Features
