@@ -45,7 +45,7 @@ function SideNavigation({
 function NavigationItemRenderer({
     item,
     depth,
-    activePath,
+    activePath = "",
     onNavigate,
     collapsible = true,
 }: NavigationItemRendererProps) {

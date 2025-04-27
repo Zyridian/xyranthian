@@ -2,7 +2,7 @@ import { Spacing } from "../../foundations"
 import { IconVariant } from "../../foundations/icons"
 import { palette } from "../../foundations/palette"
 import { typeScale } from "../../foundations/typography"
-import { FlashbarVariants } from "./Flashbar"
+import { FlashbarVariants } from "./types";
 
 export const $iconVariants: Record<FlashbarVariants, IconVariant> = {
     error: 'x-circle-outline',

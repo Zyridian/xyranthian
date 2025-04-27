@@ -161,6 +161,7 @@ function ProgressBar({
           const timeout = setTimeout(() => setAnimatedProgress(progress), 100);
           return () => clearTimeout(timeout);
         }
+        return;
       }, [locked, progress]);
 
       const progressBarProps = useMemo(() => {

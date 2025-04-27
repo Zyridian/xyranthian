@@ -1,7 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
 import  SideNavigation from './SideNavigation';
-import Text from '../Text';
 
 const meta = {
   title: 'SideNavigation',

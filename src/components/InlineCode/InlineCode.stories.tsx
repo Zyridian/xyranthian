@@ -2,7 +2,6 @@ import type { Meta, StoryObj } from '@storybook/react';
 
 import  InlineCode from './InlineCode';
 import { palette } from '../../foundations/palette';
-import Text from '../Text';
 
 const meta = {
   title: 'InlineCode',
