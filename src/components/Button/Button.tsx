@@ -33,26 +33,28 @@ function Button ({
     }, [onClick]);
 
     return (
-        <button
-            data-testid={id}
-            id={id}
-            disabled={disabled}
-            onClick={handleClick}
-            onMouseEnter={handleMouseEnter}
-            onMouseLeave={handleMouseLeave}
-            onMouseDown={handleMouseDown}
-            onMouseUp={handleMouseUp}
-            style={getButtonStyles({
-                isDisabled: disabled,
-                isHover,
-                isPressed,
-                variant,
-            })}
-            type="button"
-            {...rest}
-        >
-            {text}
-        </button>
+        <span>
+            <button
+                data-testid={id}
+                id={id}
+                disabled={disabled}
+                onClick={handleClick}
+                onMouseEnter={handleMouseEnter}
+                onMouseLeave={handleMouseLeave}
+                onMouseDown={handleMouseDown}
+                onMouseUp={handleMouseUp}
+                style={getButtonStyles({
+                    isDisabled: disabled,
+                    isHover,
+                    isPressed,
+                    variant,
+                })}
+                type="button"
+                {...rest}
+            >
+                {text}
+            </button>
+        </span>
     );
 }
 

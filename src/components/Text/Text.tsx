@@ -13,6 +13,7 @@ function Text({
     color = palette.neutral700,
     content,
     children,
+    fontSize,
     id,
     variant = "bodyS",
 }: TextProps) {
@@ -26,6 +27,7 @@ function Text({
                 color,
                 textAlign: align,
                 ...Typography[variant],
+                fontSize,
                 margin: 0,
             }}
         >

@@ -36,6 +36,11 @@ export interface TextProps {
      */
     content?: React.ReactNode;
     /**
+     * Overrides the default size of the text for
+     * responsive sizing.
+     */
+    fontSize?: React.CSSProperties["fontSize"];
+    /**
      * A unique identifier for an HTML element
      */
     id?: string;
