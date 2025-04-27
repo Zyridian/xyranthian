@@ -1,3 +1,9 @@
+## [1.1.0-beta.2](https://github.com/Zyridian/xyranthian/compare/v1.1.0-beta.1...v1.1.0-beta.2) (2025-04-27)
+
+### Features
+
+* minor improvements for Button and Text ([15bb983](https://github.com/Zyridian/xyranthian/commit/15bb98307c15493f6ec78c3e23eda3a9e685aa46))
+
 ## [1.1.0-beta.1](https://github.com/Zyridian/xyranthian/compare/v1.0.0...v1.1.0-beta.1) (2025-04-27)
 
 ### Features
