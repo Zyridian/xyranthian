@@ -7,6 +7,8 @@
   },
   "main": "index.js",
   "scripts": {
+    "build": "tsc --project tsconfig.build.json",
+    "prepublishOnly": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "storybook dev -p 6006",
     "storybook": "storybook dev -p 6006",
@@ -60,5 +62,11 @@
   },
   "exports": {
     "./components/Button": "./dist/components/Button/index.js"
-  }
+  },
+  "files": [
+    "dist",
+    "package.json",
+    "README.md",
+    "CHANGELOG.md"
+  ]
 }
