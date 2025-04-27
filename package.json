@@ -61,7 +61,14 @@
     "react-dom": "^19.1.0"
   },
   "exports": {
-    "./components/Button": "./dist/components/Button/index.js"
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.js"
+    },
+    "./components": {
+      "import": "./dist/components/index.js",
+      "require": "./dist/components/index.js"
+    }
   },
   "files": [
     "dist",
