@@ -1,3 +1,9 @@
+## [1.0.0-beta.33](https://github.com/Zyridian/xyranthian/compare/v1.0.0-beta.32...v1.0.0-beta.33) (2025-04-27)
+
+### Features
+
+* update exports ([a6689a0](https://github.com/Zyridian/xyranthian/commit/a6689a0ddd28bdeaff2ff3ef21afae151c63e456))
+
 ## [1.0.0-beta.32](https://github.com/Zyridian/xyranthian/compare/v1.0.0-beta.31...v1.0.0-beta.32) (2025-04-26)
 
 ### Features

@@ -1,6 +1,6 @@
 {
   "name": "@zyridian/xyranthian",
-  "version": "1.0.0-beta.32",
+  "version": "1.0.0-beta.33",
   "description": "A design system for educational web applicaitons.",
   "publishConfig": {
     "access": "public"
