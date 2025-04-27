@@ -1,3 +1,9 @@
+## [1.0.0-beta.37](https://github.com/Zyridian/xyranthian/compare/v1.0.0-beta.36...v1.0.0-beta.37) (2025-04-27)
+
+### Features
+
+* start 1.2 development cycle ([f51bf66](https://github.com/Zyridian/xyranthian/commit/f51bf6647a88f06c1e89b4c3fe4f7439e59406ea))
+
 ## [1.0.0-beta.36](https://github.com/Zyridian/xyranthian/compare/v1.0.0-beta.35...v1.0.0-beta.36) (2025-04-27)
 
 ### Bug Fixes
