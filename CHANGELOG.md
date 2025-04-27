@@ -1,3 +1,11 @@
+## [1.1.0-beta.1](https://github.com/Zyridian/xyranthian/compare/v1.0.0...v1.1.0-beta.1) (2025-04-27)
+
+### Features
+
+* start 1.2 development cycle ([5eb46fd](https://github.com/Zyridian/xyranthian/commit/5eb46fdab1c660ed3f9b5f0c882b8f065584a605))
+* start 1.2 development cycle ([f51bf66](https://github.com/Zyridian/xyranthian/commit/f51bf6647a88f06c1e89b4c3fe4f7439e59406ea))
+* update minor version ([0dd9d49](https://github.com/Zyridian/xyranthian/commit/0dd9d49b660816133d475795ff60d99e130bb2e3))
+
 ## 1.0.0 (2025-04-27)
 
 ### Features
