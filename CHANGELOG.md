@@ -1,3 +1,9 @@
+## [1.1.0-beta.9](https://github.com/Zyridian/xyranthian/compare/v1.1.0-beta.8...v1.1.0-beta.9) (2025-04-28)
+
+### Features
+
+* extend Textfield API to include additional event handlers ([477ec1d](https://github.com/Zyridian/xyranthian/commit/477ec1d569db11f6b1499669e2b78e5e736b774d))
+
 ## [1.1.0-beta.8](https://github.com/Zyridian/xyranthian/compare/v1.1.0-beta.7...v1.1.0-beta.8) (2025-04-28)
 
 ### Bug Fixes
