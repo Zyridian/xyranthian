@@ -9,9 +9,9 @@ export function SvgSearch (props: SvgIconProps): JSX.Element{
             viewBox="0 0 24 24"
             fill="none"
             stroke={props.color}
-            stroke-width="2" 
-            stroke-linecap="round" 
-            stroke-linejoin="round"
+            strokeWidth="2"
+            strokeLinecap="round"
+            strokeLinejoin="round"
             height={props.size}
             width={props.size}
         >

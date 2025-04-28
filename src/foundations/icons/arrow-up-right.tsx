@@ -11,9 +11,9 @@ export function SvgArrowUpRight (props: SvgIconProps): JSX.Element{
             width={props.size}
             fill="none"
             stroke={props.color}
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
+            strokeWidth="2"
+            strokeLinecap="round"
+            strokeLinejoin="round"
         >
             <path d="M7 7h10v10"/>
             <path d="M7 17 17 7"/>
