@@ -1,3 +1,9 @@
+## [1.1.0-beta.7](https://github.com/Zyridian/xyranthian/compare/v1.1.0-beta.6...v1.1.0-beta.7) (2025-04-28)
+
+### Bug Fixes
+
+* fix icon props ([01e1ceb](https://github.com/Zyridian/xyranthian/commit/01e1ceba86c711b081896fa3f7a129a4d506abf4))
+
 ## [1.1.0-beta.6](https://github.com/Zyridian/xyranthian/compare/v1.1.0-beta.5...v1.1.0-beta.6) (2025-04-28)
 
 ### Features
