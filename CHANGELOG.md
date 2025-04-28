@@ -1,3 +1,9 @@
+## [1.1.0-beta.6](https://github.com/Zyridian/xyranthian/compare/v1.1.0-beta.5...v1.1.0-beta.6) (2025-04-28)
+
+### Features
+
+* new Search icon, new cursor prop in Text ([79b1bbc](https://github.com/Zyridian/xyranthian/commit/79b1bbc2425be50f703bde97a5d3201d9576f7e4))
+
 ## [1.1.0-beta.5](https://github.com/Zyridian/xyranthian/compare/v1.1.0-beta.4...v1.1.0-beta.5) (2025-04-28)
 
 ### Bug Fixes
