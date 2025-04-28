@@ -1,3 +1,9 @@
+## [1.1.0-beta.8](https://github.com/Zyridian/xyranthian/compare/v1.1.0-beta.7...v1.1.0-beta.8) (2025-04-28)
+
+### Bug Fixes
+
+* fix width bug in Textfield ([8b04a13](https://github.com/Zyridian/xyranthian/commit/8b04a130c76858f923cbaadc9724bb380f1d8269))
+
 ## [1.1.0-beta.7](https://github.com/Zyridian/xyranthian/compare/v1.1.0-beta.6...v1.1.0-beta.7) (2025-04-28)
 
 ### Bug Fixes
