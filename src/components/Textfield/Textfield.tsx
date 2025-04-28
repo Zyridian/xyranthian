@@ -24,7 +24,11 @@ function Textfield({
     label,
     labelIcon,
     maxWidth,
+    onBlur,
     onChange,
+    onClick,
+    onDoubleClick,
+    onFocus,
     placeholder,
     readonly = false,
     startIcon,
@@ -98,6 +102,10 @@ function Textfield({
                         placeholder={placeholder}
                         id={internalId}
                         type={variant}
+                        onBlur={onBlur}
+                        onClick={onClick}
+                        onDoubleClick={onDoubleClick}
+                        onFocus={onFocus}
                         onChange={onChange}
                         value={value}
                         readOnly={readonly}

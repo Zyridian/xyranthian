@@ -49,9 +49,30 @@ export interface TextfieldProps {
      */
     maxWidth?: React.CSSProperties["maxWidth"];
     /**
+     * Callback function called when the input has lost focus
+     * @see https://developer.mozilla.org/en-US/docs/Web/API/Element/blur_event
+     */
+    onBlur?: React.FocusEventHandler<HTMLInputElement>;
+    /**
      * Callback function called as the user types into the Textfield
      */
     onChange?: React.ChangeEventHandler<HTMLInputElement>;
+    /**
+     * Callback function when the input has been clicked
+     * @see https://developer.mozilla.org/en-US/docs/Web/API/Element/click_event
+     */
+    onClick?: React.MouseEventHandler<HTMLInputElement>;
+    /**
+     * Callback function when the input has been double clicked; that is,
+     * when it's rapidly clicked twice within a very short span of time.
+     * @see https://developer.mozilla.org/en-US/docs/Web/API/Element/dblclick_event
+     */
+    onDoubleClick?: React.MouseEventHandler<HTMLInputElement>;
+    /**
+     * Callback function when an element has received focus
+     * @see https://developer.mozilla.org/en-US/docs/Web/API/Element/focus_event
+     */
+    onFocus?: React.FocusEventHandler<HTMLInputElement>
     /**
      * The text displayed in a form control when the control has no value
      * @see https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Attributes/placeholder
