@@ -18,6 +18,7 @@ function Text({
     variant = "bodyS",
 }: TextProps) {
     const Wrapper = BaseElementWrappers[baseElement];
+    const styles = Typography[variant];
 
     return (
         <Wrapper
@@ -26,8 +27,8 @@ function Text({
             style={{
                 color,
                 textAlign: align,
-                ...Typography[variant],
-                fontSize,
+                ...styles,
+                fontSize: fontSize ?? styles.fontSize,
                 margin: 0,
                 cursor: "default",
             }}
