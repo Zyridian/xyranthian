@@ -1,3 +1,9 @@
+## [1.1.0-beta.5](https://github.com/Zyridian/xyranthian/compare/v1.1.0-beta.4...v1.1.0-beta.5) (2025-04-28)
+
+### Bug Fixes
+
+* update font size and exports typography tokens ([ca40b77](https://github.com/Zyridian/xyranthian/commit/ca40b77f7a6dbaf50875acedb65c8919efcee0b1))
+
 ## [1.1.0-beta.4](https://github.com/Zyridian/xyranthian/compare/v1.1.0-beta.3...v1.1.0-beta.4) (2025-04-28)
 
 ### Bug Fixes
