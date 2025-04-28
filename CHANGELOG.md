@@ -1,3 +1,9 @@
+## [1.1.0-beta.3](https://github.com/Zyridian/xyranthian/compare/v1.1.0-beta.2...v1.1.0-beta.3) (2025-04-28)
+
+### Features
+
+* fix cursor and new exports ([8537b74](https://github.com/Zyridian/xyranthian/commit/8537b74529bc6a64a69c56532d499103afc286ec))
+
 ## [1.1.0-beta.2](https://github.com/Zyridian/xyranthian/compare/v1.1.0-beta.1...v1.1.0-beta.2) (2025-04-27)
 
 ### Features
