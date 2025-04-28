@@ -1,3 +1,9 @@
+## [1.1.0-beta.4](https://github.com/Zyridian/xyranthian/compare/v1.1.0-beta.3...v1.1.0-beta.4) (2025-04-28)
+
+### Bug Fixes
+
+* export Colors ([3dd8837](https://github.com/Zyridian/xyranthian/commit/3dd88373f45f615e4f4d2f0abfc85af9114a4790))
+
 ## [1.1.0-beta.3](https://github.com/Zyridian/xyranthian/compare/v1.1.0-beta.2...v1.1.0-beta.3) (2025-04-28)
 
 ### Features
