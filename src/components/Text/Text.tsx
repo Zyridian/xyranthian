@@ -29,6 +29,7 @@ function Text({
                 ...Typography[variant],
                 fontSize,
                 margin: 0,
+                cursor: "default",
             }}
         >
             {children ?? content}

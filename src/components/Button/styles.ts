@@ -16,6 +16,7 @@ const $destructiveButtonStyle: React.CSSProperties = {
     backgroundColor: palette.red600,
     borderRadius: Radii.md,
     color: palette.neutral000,
+    cursor: "pointer",
     ...$baseButtonStyles,
 };
 
@@ -32,6 +33,7 @@ const $primaryButtonStyles: React.CSSProperties = {
     borderColor: "transparent",
     borderRadius: Radii.md,
     color: palette.neutral000,
+    cursor: "pointer",
     ...$baseButtonStyles,
 }
 
@@ -49,6 +51,7 @@ const $secondaryButtonStyles: React.CSSProperties = {
     borderRadius: Radii.md,
     borderWidth: "1px",
     color: palette.neutral900,
+    cursor: "pointer",
     ...$baseButtonStyles,
 };
 
