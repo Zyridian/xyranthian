@@ -36,6 +36,12 @@ export interface TextProps {
      */
     content?: React.ReactNode;
     /**
+     * Sets the mouse cursor
+     * @see https://developer.mozilla.org/en-US/docs/Web/CSS/cursor
+     * @default "default"
+     */
+    cursor?: React.CSSProperties["cursor"];
+    /**
      * Overrides the default size of the text for
      * responsive sizing.
      */

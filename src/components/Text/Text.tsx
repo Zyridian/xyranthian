@@ -13,6 +13,7 @@ function Text({
     color = palette.neutral700,
     content,
     children,
+    cursor = "default",
     fontSize,
     id,
     variant = "bodyS",
@@ -30,7 +31,7 @@ function Text({
                 ...styles,
                 fontSize: fontSize ?? styles.fontSize,
                 margin: 0,
-                cursor: "default",
+                cursor,
             }}
         >
             {children ?? content}

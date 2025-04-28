@@ -24,6 +24,7 @@ import { SvgAvatar } from "./avatar";
 import { SvgChevronLeft } from "./chevron-left";
 import { SvgChevronUp } from "./chevron-up";
 import { SvgChevronDown } from "./chevron-down";
+import { SvgSearch } from "./search";
 
 export const Icons = {
     "arrow-up-right": SvgArrowUpRight,
@@ -47,6 +48,7 @@ export const Icons = {
     "info-circle": SvgInfoCircle,
     "info-circle-outline": SvgInfoCircleOutline,
     "lock": SvgLock,
+    "search": SvgSearch,
     "target": SvgTarget,
     "unlock": SvgUnlock,
     "x-circle": SvgXCircle,
