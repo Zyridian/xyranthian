@@ -1,3 +1,9 @@
+## [1.1.0-beta.10](https://github.com/Zyridian/xyranthian/compare/v1.1.0-beta.9...v1.1.0-beta.10) (2025-04-30)
+
+### Features
+
+* extend Text props ([754182a](https://github.com/Zyridian/xyranthian/commit/754182a843e276e0ae8f56c5d73a60cb7d085bf6))
+
 ## [1.1.0-beta.9](https://github.com/Zyridian/xyranthian/compare/v1.1.0-beta.8...v1.1.0-beta.9) (2025-04-28)
 
 ### Features
