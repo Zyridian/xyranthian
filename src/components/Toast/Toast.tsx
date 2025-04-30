@@ -39,7 +39,6 @@ function Toast({
             <span style={$contentStyles}>
                 {content}
             </span>
-
         </div>
     )
 }

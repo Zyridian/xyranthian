@@ -31,6 +31,7 @@ function Textfield({
     onFocus,
     placeholder,
     readonly = false,
+    ref,
     startIcon,
     value,
     variant = "text",
@@ -110,6 +111,7 @@ function Textfield({
                         value={value}
                         readOnly={readonly}
                         style={$rootInputStyles}
+                        ref={ref}
                     />
                     {
                         endIcon && (

@@ -83,6 +83,11 @@ export interface TextfieldProps {
      */
     readonly?: boolean;
     /**
+     * Allows getting a ref to the component instance. Once the component unmounts, React will set
+     * ref.current to null (or call the ref with null if you passed a callback ref).
+     */
+    ref?: React.Ref<HTMLInputElement>
+    /**
      * Icon displayed at the start of the input field.
      */
     startIcon?: IconVariant;
