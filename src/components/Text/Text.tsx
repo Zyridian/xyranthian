@@ -4,8 +4,8 @@ import { BaseElementWrappers } from "./constants";
 import { TextProps } from "./types";
 
 /**
- * Texts are used to display contextual feedback messages—such as errors, warnings,
- * or confirmations—to guide or inform users within the UI.
+ * Texts are used to display text elements like paragraphs
+ * and headers.
  */
 function Text({
     align = "left",
