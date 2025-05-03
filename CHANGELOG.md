@@ -1,3 +1,9 @@
+## [1.1.0-beta.11](https://github.com/Zyridian/xyranthian/compare/v1.1.0-beta.10...v1.1.0-beta.11) (2025-05-03)
+
+### Features
+
+* new Link component ([9c04814](https://github.com/Zyridian/xyranthian/commit/9c04814198fe8b04498111f8cee5e40c05d358e5))
+
 ## [1.1.0-beta.10](https://github.com/Zyridian/xyranthian/compare/v1.1.0-beta.9...v1.1.0-beta.10) (2025-04-30)
 
 ### Features
