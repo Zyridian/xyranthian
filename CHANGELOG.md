@@ -1,3 +1,9 @@
+## [1.1.0-beta.13](https://github.com/Zyridian/xyranthian/compare/v1.1.0-beta.12...v1.1.0-beta.13) (2025-05-03)
+
+### Bug Fixes
+
+* fix default font color for Link ([17749fe](https://github.com/Zyridian/xyranthian/commit/17749fe0e2f472a084a6a41927fd6177a5d42719))
+
 ## [1.1.0-beta.12](https://github.com/Zyridian/xyranthian/compare/v1.1.0-beta.11...v1.1.0-beta.12) (2025-05-03)
 
 ### Bug Fixes
