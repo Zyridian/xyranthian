@@ -10,7 +10,7 @@ import { LinkProps } from "./types";
 function Link({
     align = "left",
     baseElement= "span",
-    color = palette.neutral100,
+    color = palette.neutral700,
     hoverColor = palette.primary600,
     children,
     cursor = "pointer",
