@@ -31,6 +31,8 @@ export { default as IconButton } from "./IconButton";
 export * from "./InlineCode";
 export { default as InlineCode } from "./InlineCode";
 export * from "./LessonCard";
+export { default as Link } from "./Link";
+export * from "./Link";
 export { default as LessonCard } from "./LessonCard";
 export * from "./LoadingSkeleton";
 export { default as LoadingSkeleton } from "./LoadingSkeleton";
