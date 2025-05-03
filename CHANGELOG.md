@@ -1,3 +1,9 @@
+## [1.1.0-beta.12](https://github.com/Zyridian/xyranthian/compare/v1.1.0-beta.11...v1.1.0-beta.12) (2025-05-03)
+
+### Bug Fixes
+
+* export Link ([c4ec4f2](https://github.com/Zyridian/xyranthian/commit/c4ec4f2adee3fca8c08fb3d0035c395d3e617d66))
+
 ## [1.1.0-beta.11](https://github.com/Zyridian/xyranthian/compare/v1.1.0-beta.10...v1.1.0-beta.11) (2025-05-03)
 
 ### Features
