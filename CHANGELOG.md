@@ -1,3 +1,9 @@
+## [1.1.0-beta.14](https://github.com/Zyridian/xyranthian/compare/v1.1.0-beta.13...v1.1.0-beta.14) (2025-05-04)
+
+### Features
+
+* new Button sizes and primary color ([6970a63](https://github.com/Zyridian/xyranthian/commit/6970a63b5303875a08cbb384b2b76bfab8b74a4a))
+
 ## [1.1.0-beta.13](https://github.com/Zyridian/xyranthian/compare/v1.1.0-beta.12...v1.1.0-beta.13) (2025-05-03)
 
 ### Bug Fixes
