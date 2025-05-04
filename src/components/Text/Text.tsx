@@ -16,7 +16,6 @@ function Text({
     cursor = "default",
     fontSize,
     id,
-    size = "SM",
     variant = "bodyS",
 }: TextProps) {
     const Wrapper = BaseElementWrappers[baseElement];
