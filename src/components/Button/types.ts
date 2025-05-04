@@ -1,3 +1,4 @@
+export type ButtonSizes = "SM" | "MD" | "LG";
 
 export interface ButtonProps {
     /**
@@ -13,6 +14,11 @@ export interface ButtonProps {
      * Callback function when element is clicked
      */
     onClick?: (event: React.MouseEvent<HTMLButtonElement, MouseEvent>) => void;
+    /**
+     * The size of the button
+     * @default "SM"
+     */
+    size?: ButtonSizes;
     /**
      * The text displayed in the button element
      * @default ''

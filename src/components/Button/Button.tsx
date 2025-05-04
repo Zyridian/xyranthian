@@ -1,6 +1,7 @@
 import { JSX, useCallback, useState } from "react";
-import { ButtonProps } from "./types";
+import { ButtonProps, ButtonSizes } from "./types";
 import { getButtonStyles } from "./styles";
+import { typeScale } from "../../foundations";
 
 /**
  * Buttons allow users to initiate actions in the user
@@ -10,6 +11,7 @@ function Button ({
     disabled = false,
     id,
     onClick,
+    size = "SM",
     text,
     variant = 'primary',
     ...rest
@@ -43,12 +45,15 @@ function Button ({
                 onMouseLeave={handleMouseLeave}
                 onMouseDown={handleMouseDown}
                 onMouseUp={handleMouseUp}
-                style={getButtonStyles({
-                    isDisabled: disabled,
-                    isHover,
-                    isPressed,
-                    variant,
-                })}
+                style={{
+                    ...getButtonStyles({
+                        isDisabled: disabled,
+                        isHover,
+                        isPressed,
+                        variant,
+                    }),
+                    fontSize: buttonSizesMap[size]
+                }}
                 type="button"
                 {...rest}
             >
@@ -59,3 +64,9 @@ function Button ({
 }
 
 export default Button;
+
+const buttonSizesMap: Record<ButtonSizes, string> = {
+    SM: typeScale.sizeLabel,
+    MD: typeScale.sizeBodyS,
+    LG: typeScale.sizeBodyL,
+};

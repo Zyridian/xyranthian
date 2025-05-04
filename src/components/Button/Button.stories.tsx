@@ -21,6 +21,7 @@ const meta = {
   args: {
     disabled: false,
     onClick: () => {alert("You clicked button.")},
+    size: "SM",
     text: 'Get started'
   },
 } satisfies Meta<typeof Button>;

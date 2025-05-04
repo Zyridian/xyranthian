@@ -29,7 +29,7 @@ const $destructiveButtonPressedStyle: React.CSSProperties = {
 };
 
 const $primaryButtonStyles: React.CSSProperties = {
-    backgroundColor: palette.primary600,
+    backgroundColor: palette.indigo500,
     borderColor: "transparent",
     borderRadius: Radii.md,
     color: palette.neutral000,
@@ -38,11 +38,11 @@ const $primaryButtonStyles: React.CSSProperties = {
 }
 
 const $primaryButtonHoverStyles: React.CSSProperties = {
-    backgroundColor: palette.primary700
+    backgroundColor: palette.indigo600,
 }
 
 const $primaryButtonPressedStyles: React.CSSProperties = {
-    backgroundColor: palette.primary800
+    backgroundColor: palette.indigo900,
 }
 
 const $secondaryButtonStyles: React.CSSProperties = {
