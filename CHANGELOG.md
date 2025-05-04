@@ -1,3 +1,9 @@
+## [1.1.0-beta.15](https://github.com/Zyridian/xyranthian/compare/v1.1.0-beta.14...v1.1.0-beta.15) (2025-05-04)
+
+### Bug Fixes
+
+* remove size from Text ([cc776fe](https://github.com/Zyridian/xyranthian/commit/cc776fec1ae00c77e2b9be3bf1b8cdccc5e7cbd5))
+
 ## [1.1.0-beta.14](https://github.com/Zyridian/xyranthian/compare/v1.1.0-beta.13...v1.1.0-beta.14) (2025-05-04)
 
 ### Features
