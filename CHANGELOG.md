@@ -1,3 +1,9 @@
+## [1.1.0-beta.19](https://github.com/Zyridian/xyranthian/compare/v1.1.0-beta.18...v1.1.0-beta.19) (2025-05-11)
+
+### Bug Fixes
+
+* server directive ([43f61ac](https://github.com/Zyridian/xyranthian/commit/43f61aca1cd97947f8b0afde3de750d258b52461))
+
 ## [1.1.0-beta.18](https://github.com/Zyridian/xyranthian/compare/v1.1.0-beta.17...v1.1.0-beta.18) (2025-05-11)
 
 ### Bug Fixes
