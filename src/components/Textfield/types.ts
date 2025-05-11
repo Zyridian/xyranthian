@@ -49,6 +49,12 @@ export interface TextfieldProps {
      */
     maxWidth?: React.CSSProperties["maxWidth"];
     /**
+     * A name for the input control. This name is submitted along with the control's value
+     * when the form data is submitted.
+     * @see https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/input#name
+     */
+    name?: React.InputHTMLAttributes<HTMLInputElement>["name"]
+    /**
      * Callback function called when the input has lost focus
      * @see https://developer.mozilla.org/en-US/docs/Web/API/Element/blur_event
      */

@@ -25,6 +25,7 @@ function Textfield({
     label,
     labelIcon,
     maxWidth,
+    name,
     onBlur,
     onChange,
     onClick,
@@ -105,6 +106,7 @@ function Textfield({
                         placeholder={placeholder}
                         id={internalId}
                         type={variant}
+                        name={name}
                         onBlur={onBlur}
                         onClick={onClick}
                         onDoubleClick={onDoubleClick}
