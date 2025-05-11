@@ -23,6 +23,7 @@
         "**/*.test.tsx",
         "**/*.test.ts",
         "**/*.spec.tsx",
-        "**/*.spec.ts"
+        "**/*.spec.ts",
+        "**/*.css"
     ]
 }

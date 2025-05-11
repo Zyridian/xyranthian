@@ -1,3 +1,5 @@
+"use client"
+
 import { useCallback, useState } from "react";
 import { palette } from "../../foundations/palette";
 import Spacer from "../Spacer/Spacer";

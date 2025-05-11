@@ -3,13 +3,6 @@ import { palette } from "../../foundations/palette";
 import { typeScale } from "../../foundations/typography";
 import { TextfieldVisualStates } from "./types";
 
-export const $constraintTextStyles: React.CSSProperties = {
-    fontSize: typeScale.sizeLabel,
-    marginTop: 1.5,
-    maxWidth: "100%",
-    wordBreak: "break-word",
-};
-
 export const $inputRowIconColorVariants: Record<TextfieldVisualStates, string> = {
     default: palette.neutral500,
     disabled: palette.neutral300,
@@ -65,16 +58,6 @@ export const $labelStylesVariants: Record<TextfieldVisualStates, any> = {
         color: palette.neutral600,
         iconColor: palette.neutral500,
     }
-};
-
-export const $rootLabelStyles: React.CSSProperties = {
-    cursor: "default",
-    fontFamily: typeScale.fontInter,
-    fontSize: typeScale.sizeLabel,
-    fontWeight: typeScale.weightMedium,
-    lineHeight: 1.5,
-    marginTop: 0,
-    marginBottom: Spacing.spacing1,
 };
 
 export const $rootInputRowStyles: React.CSSProperties = {

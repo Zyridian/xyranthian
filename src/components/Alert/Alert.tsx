@@ -1,14 +1,15 @@
+"use server"
+
 import React from "react";
 import Icon from "../Icon/Icon";
 import { AlertProps } from "./types";
 import {
-    $baseStyles,
-    $contentStyle,
-    $headerStyle,
     $iconColorStyles,
     $iconVariants,
-    $rootVariantStyles,
 } from "./styles";
+import "../../foundations/global.css"
+import styles from "./styles.module.css";
+import Spacer from "../Spacer";
 
 /**
  * Alerts are used to display contextual feedback messages—such as
@@ -38,18 +39,25 @@ function Alert({
             id={id}
             aria-live={ariaLive}
             role={role}
+            className={[
+                styles.rootDiv,
+                styles[variant]
+            ].join(" ")}
             style={{
                 width,
-                ...$baseStyles,
-                ...$rootVariantStyles[variant],
                 alignItems: !(showHeader && showContent) ? "center" : 'flex-start',
             }}
         >
-           <div><Icon color={$iconColorStyles[variant]} variant={$iconVariants[variant]}/></div>
-            <div style={{display: 'flex', flexDirection: 'column', gap: "8px"}}>
-                {showHeader && <p style={$headerStyle}>{header}</p>}
-                {showContent && <p style={$contentStyle}>{content}</p>}
+           <div>
+                <Icon color={$iconColorStyles[variant]} variant={$iconVariants[variant]}/>
             </div>
+            <Spacer
+                direction="column"
+                size="spacing2"
+            >
+                {showHeader && <p className={styles.header}>{header}</p>}
+                {showContent && <p className={styles.content}>{content}</p>}
+            </Spacer>
         </div>
     );
 }

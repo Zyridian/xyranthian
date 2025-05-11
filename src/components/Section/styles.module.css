@@ -1,0 +1,7 @@
+.boxWrapper {
+    border-color: var(--neutral200);
+    border-radius: var(--radiiLG);
+    border-style: solid;
+    border-width: 1px;
+    padding: var(--spacing7);
+}

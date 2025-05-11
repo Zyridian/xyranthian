@@ -1,3 +1,5 @@
+"use server"
+
 import { JSX } from "react";
 import Avatar from "../Avatar";
 import { Spacing } from "../../foundations/spacing";
@@ -37,7 +39,6 @@ function AvatarGroup({
             }
         </Spacer>
     );
-
 }
 
 export default AvatarGroup;

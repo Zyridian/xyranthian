@@ -1,7 +1,10 @@
+"use server"
+
 import { JSX } from "react";
 import { BaseElementWrappers } from "./constants";
 import { PageContainerProps } from "./types";
-import { $baseStyles } from "./styles";
+import "../../foundations/global.css"
+import styles from "./styles.module.css";
 
 /**
  * A layout utility that enforces consistent horizontal padding
@@ -17,7 +20,6 @@ function PageContainer({
 }:PageContainerProps): JSX.Element {
     const Wrapper = BaseElementWrappers[baseElement];
     const style: React.CSSProperties = {
-        ...$baseStyles,
         maxWidth,
         paddingLeft: horizontalPadding,
         paddingRight: horizontalPadding,
@@ -25,6 +27,7 @@ function PageContainer({
 
     return (
         <Wrapper
+            className={styles.rootDiv}
             data-testid={id}
             id={id}
             style={style}

@@ -1,3 +1,5 @@
+"use server"
+
 import React from "react";
 import { Icons } from "../../foundations/icons/index";
 import { palette } from "../../foundations/palette"

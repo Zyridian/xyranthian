@@ -1,3 +1,5 @@
+"use client"
+
 import { JSX, useCallback } from "react";
 import { palette } from "../../foundations/palette";
 import { typeScale } from "../../foundations/typography";

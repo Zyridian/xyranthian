@@ -1,16 +1,14 @@
-"use client"
+"use server"
 import { JSX } from "react";
-import { ButtonProps } from "./types";
 import "../../foundations/global.css"
-import styles from "./styles.module.css";
+import styles from "../Button/styles.module.css";
+import { FormButtonProps } from "./types";
 
 /**
  * Buttons allow users to initiate actions in the user
- * interface.
- *
- * For server-side button, use `FormButton`
+ * interface. 
  */
-function Button ({
+function FormButton ({
     disabled = false,
     id,
     size = "SM",
@@ -18,7 +16,7 @@ function Button ({
     type = "button",
     variant = 'primary',
     ...rest
-}: ButtonProps): JSX.Element {
+}: FormButtonProps): JSX.Element {
     return (
         <span>
             <button
@@ -40,4 +38,4 @@ function Button ({
     );
 }
 
-export default Button;
+export default FormButton;

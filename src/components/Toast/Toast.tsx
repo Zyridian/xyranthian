@@ -1,9 +1,12 @@
+"use server"
+
 import { JSX } from "react";
 import Icon, { IconSizes } from "../Icon";
 import { palette } from "../../foundations/palette";
 import { IconVariant } from "../../foundations/icons";
-import { $contentStyles, $rootStyles, $variantStyles } from "./styles";
 import { ToastProps, ToastVariants } from "./types";
+import "../../foundations/global.css"
+import styles from "./styles.module.css";
 
 /**
  * Displays brief, ephemeral messages that confirm an action,
@@ -23,10 +26,11 @@ function Toast({
             id={id}
             aria-live={ariaLive}
             role={role}
-            style={{
-                ...$rootStyles,
-                backgroundColor: $variantStyles[variant],
-            }}
+            className={[
+                styles.rootDiv,
+                styles[variant]
+
+            ].join(" ")}
             {...rest}
         >
             <span>
@@ -36,11 +40,11 @@ function Toast({
                     variant={variantIconMap[variant]}
                 />
             </span>
-            <span style={$contentStyles}>
+            <span className={styles.content}>
                 {content}
             </span>
         </div>
-    )
+    );
 }
 
 export default Toast;

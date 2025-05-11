@@ -1,14 +1,12 @@
-import React, { CSSProperties, JSX, useCallback, useState } from "react";
-import { typeScale } from "../../foundations/typography";
+"use server"
+
+import React, { JSX } from "react";
 import { palette } from "../../foundations/palette";
-import {
-    BreadcrumbItemProps as XyranthianBreadcrumbItemProps,
-    BreadcrumbsProps,
-    GetBreadcrumbItemStyleProps,
-} from "./types";
+import { BreadcrumbsProps } from "./types";
 import Icon, { IconSizes } from "../Icon";
-import { $breadcrumbGroupStyles, $breadcrumbListItemStyles } from "./styles";
-import { Colors } from "../../foundations";
+import "../../foundations/global.css"
+import styles from "./styles.module.css";
+import BreadcrumbItem from "./BreadcrumbItem";
 
 /**
  * Breadcrumbs provide a navigational trail, showing users where they are and how they got there
@@ -25,7 +23,7 @@ function Breadcrumbs ({
             data-testid={id}
             {...rest}
         >
-            <ol role="list" style={$breadcrumbGroupStyles}>
+            <ol role="list" className={styles.list}>
                 {
                     items.map((itemProps, index) => {
                         const isLastBreadcrumbItem = index === items.length - 1;
@@ -51,76 +49,4 @@ function Breadcrumbs ({
     );
 }
 
-type BreadcrumbItemProps = XyranthianBreadcrumbItemProps & {isCurrentPage?: boolean}
-
-function BreadcrumbItem({
-    isCurrentPage = false,
-    content,
-    href,
-    id,
-    onClick,
-    ...rest
-}: BreadcrumbItemProps): JSX.Element {
-    const [isHover, setIsHover] = useState(false);
-    const handleMouseEnter = useCallback(() => {
-        setIsHover(true);
-    }, []);
-    const handleMouseLeave= useCallback(() => {
-        setIsHover(false);
-    }, []);
-
-    return (
-        <li
-            onMouseEnter={handleMouseEnter}
-            onMouseLeave={handleMouseLeave}
-            role="listitem"
-            style={$breadcrumbListItemStyles}
-        >
-            <a
-                aria-current="page"
-                href={href}
-                id={id}
-                onClick={onClick}
-                style={{
-                    
-                    ...getBreadcrumbItemStyle({isCurrentPage, isHover})
-                }}
-                {...rest}
-            >
-                {content}
-            </a> 
-        </li>
-    );
-}
-
 export default Breadcrumbs;
-
-function getBreadcrumbItemStyle({
-    isCurrentPage,
-    isHover,
-}: GetBreadcrumbItemStyleProps): React.CSSProperties {
-    const baseStyles: CSSProperties = {
-        fontFamily: typeScale.fontInter,
-        fontWeight: typeScale.weightMedium,
-        fontSize: typeScale.sizeBodyS,
-    };
-
-    if (isCurrentPage) {
-        return {
-            ...baseStyles,
-            color: Colors.textStrong,
-            cursor: "default"
-        };
-    }
-
-    return isHover
-        ? {
-            ...baseStyles,
-            color: Colors.textDefault,
-            cursor: "pointer",
-        }
-        : {
-            ...baseStyles,
-            color: Colors.textMuted,
-        };
-}

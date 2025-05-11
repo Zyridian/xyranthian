@@ -1,0 +1,31 @@
+
+.list {
+    align-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: var(--spacing2);
+    justify-content: space-between;
+    padding: var(--spacing2);
+}
+
+.listItem {
+    list-style-type: none;
+}
+
+.listItemLink {
+    color: var(--neutral500);
+    font-family: var(--fontInter);
+    font-weight: var(--weightMedium);
+    font-size: var(--sizeBodyS);
+}
+
+.listItemLink:hover {
+    color: var(--neutral800);
+    cursor: pointer;
+}
+
+.currentPage {
+    color: var(--neutral900);
+    cursor: default;
+}

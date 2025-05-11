@@ -1,0 +1,58 @@
+.rootDiv {
+    box-sizing: content-box;
+    border-color: 'transparent';
+    color: var(--neutral700);
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    justify-content: flex-start;
+    font-family: var(--fontInter);
+    font-size: var(--sizeLabel);
+    padding: var(--spacing4);
+}
+
+.error {
+    background-color: var(--error400);
+    border-color: var(--error500);
+    border-width: 1px;
+    border-radius: 12px;
+    border-style: solid;
+}
+
+.info {
+    background-color: var(--primary500);
+    border-color: var(--primary600);
+    border-width: 1px;
+    border-radius: 12px;
+    border-style: solid;
+}
+
+.success {
+    background-color: var(--success400);
+    border-color: var(--success500);
+    border-width: 1px;
+    border-radius: 12px;
+    border-style: solid;
+}
+
+.warning {
+    background-color: var(--warning400);
+    border-color: var(--warning500);
+    border-width: 1px;
+    border-radius: 12px;
+    border-style: solid;
+}
+
+.header {
+    font-size: var(--sizeBodyS);
+    font-weight: var(--weightSemiBold);
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.content {
+    font-size: var(--sizeLabel);
+    font-weight: var(--weightRegular);
+    margin-top: 0;
+    margin-bottom: 0;
+}

@@ -1,3 +1,5 @@
+"use server"
+
 import { Typography } from "../../foundations";
 import { palette } from "../../foundations/palette";
 import { BaseElementWrappers } from "./constants";

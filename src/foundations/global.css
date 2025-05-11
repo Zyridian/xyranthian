@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=JetBrains+Mono&family=Sora:wght@600;700&display=swap');
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+
+  --primary500: #DBEAFE;
+  --primary600: #2563EB;
+  --primary700: #1E4FCC;
+  --primary800: #183DA3;
+
+  --neutral000: #FFFFFF;
+  --neutral050: #F9FAFB;
+  --neutral100: #F3F4F6;
+  --neutral200: #E5E7EB;
+  --neutral300: #D1D5DB;
+  --neutral400: #9CA3AF;
+  --neutral500: #6B7280;
+  --neutral600: #2F2F2F;
+  --neutral700: #1C1C1C;
+  --neutral800: #0E0E0E;
+  --neutral900: #111827;
+
+  --success400: #ECFDF5;
+  --success500: #10B981;
+
+  --warning400: #FFFBEB;
+  --warning500: #F59E0B;
+
+  --error400: #FEF2F2;
+  --error500: #EF4444;
+
+  --indigo500: #6366F1;
+  --indigo600: #2d2ca6;
+  --indigo900: #100a51;
+
+  --coral500: #FB7185;
+  --sky500: #38BDF8;
+  --emerald500: #34D399;
+
+  --red600: #DC2626;
+  --red700: #B91C1C;
+  --red800: #991B1B;
+
+  /* Font families */
+  --fontSora: "Sora", sans-serif;
+  --fontInter: "Inter", sans-serif;
+  --fontMono: "JetBrains Mono", monospace;
+
+  /* Font sizes */
+  --sizeDisplayXL: 96px;
+  --sizeDisplayL: 72px;
+  --sizeDisplayM: 64px;
+  --sizeDisplayS: 48px;
+  --sizeH1: 36px;
+  --sizeH2: 28px;
+  --sizeH3: 22px;
+  --sizeBodyL: 18px;
+  --sizeBodyS: 16px;
+  --sizeLabel: 14px;
+  --sizeMetadata: 12px;
+  --sizeCode: 15px;
+
+  /* Font weights */
+  --weightRegular: 400;
+  --weightMedium: 500;
+  --weightSemiBold: 600;
+  --weightBold: 700;
+
+  --spacing0: 0px;
+  --spacing1: 4px;
+  --spacing2: 8px;
+  --spacing3: 12px;
+  --spacing4: 16px;
+  --spacing5: 20px;
+  --spacing6: 24px;
+  --spacing7: 32px;
+  --spacing8: 40px;
+  --spacing9: 48px;
+  --spacing10: 64px;
+
+  /* Radii */
+  --radiiNone: 0px;
+  --radiiSM: 4px;
+  --radiiMD: 8px;
+  --radiiLG: 12px;
+  --radiiXL: 16px;
+  --radiiFull: 9999px;
+}

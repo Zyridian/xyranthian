@@ -1,3 +1,5 @@
+"use client"
+
 import { useCallback, useState } from "react";
 import { Typography } from "../../foundations";
 import { palette } from "../../foundations/palette";

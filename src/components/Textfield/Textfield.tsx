@@ -1,3 +1,5 @@
+"use client"
+
 import { JSX, useCallback, useId, useState } from "react";
 import Spacer from "../Spacer";
 import Icon from "../Icon";
@@ -5,15 +7,14 @@ import { palette } from "../../foundations/palette";
 import { typeScale } from "../../foundations/typography";
 import { TextfieldProps } from "./types";
 import {
-    $constraintTextStyles,
     $inputRowIconColorVariants,
     $inputRowStylesVariants,
     $labelStylesVariants,
-    $rootInputRowStyles,
     $rootInputStyles,
-    $rootLabelStyles,
 } from "./styles";
 import { getVisualState } from "./utils";
+import "../../foundations/global.css"
+import styles from "./styles.module.css";
 
 function Textfield({
     constraintText,
@@ -45,7 +46,7 @@ function Textfield({
         setIsHover(false);
     }, []);
 
-    const internalId = useId();
+    const internalId = id ?? useId();
 
     const visualState = getVisualState({disabled, error, isHover, readonly});
 
@@ -54,7 +55,7 @@ function Textfield({
     const $labelStyles = $labelStylesVariants[visualState];
 
     return (
-        <div data-testid={id} id={id} style={{maxWidth, width}}>
+        <div style={{maxWidth, width}}>
             <Spacer size="spacing1">
                 <Spacer
                     alignItems="center"
@@ -71,17 +72,17 @@ function Textfield({
                     )}
                     <label
                         htmlFor={internalId}
+                        className={styles.label}
                         style={{
                             color: $labelStyles.color,
-                            ...$rootLabelStyles,
                         }}
                     >
                         {label}
                     </label>
                 </Spacer>
                 <div
+                    className={styles.inputRow}
                     style={{
-                        ...$rootInputRowStyles,
                         ...$inputRowStyles,
                     }}
                     onMouseEnter={handleMouseEnter}
@@ -99,6 +100,7 @@ function Textfield({
                     <input
                         aria-disabled={disabled}
                         aria-invalid={error}
+                        data-testid={internalId}
                         disabled={disabled}
                         placeholder={placeholder}
                         id={internalId}
@@ -126,9 +128,9 @@ function Textfield({
                 {
                     constraintText && (
                         <span
+                            className={styles.constraintText}
                             style={{
                                 color: error ? palette.error500 : palette.neutral500,
-                                ...$constraintTextStyles,
                             }}
                         >
                             {constraintText}

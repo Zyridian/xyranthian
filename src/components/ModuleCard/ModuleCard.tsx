@@ -1,20 +1,24 @@
+"use client"
+
 import { JSX, useCallback, useEffect, useMemo, useState } from "react";
 import Spacer from "../Spacer/Spacer";
 import { typeScale } from "../../foundations/typography";
 import { IconVariant } from "../../foundations/icons";
 import { palette } from "../../foundations/palette";
 import Icon from "../Icon";
-import { ModuleCardProgressBarProps, ModuleCardProps, ModuleCardStatusVariants, ModuleProgressbarColors } from "./types";
+import {
+    ModuleCardProgressBarProps,
+    ModuleCardProps,
+    ModuleCardStatusVariants,
+    ModuleProgressbarColors,
+} from "./types";
 import {
     $progressbarKeyframes,
-    $progressbarStyles,
-    $rootWrapperStyle,
     $statusColorMap,
     $statusLabelStyles,
-    $summaryStyles,
-    $timeLabelStyles,
-    $titleStyles,
 } from "./styles";
+import "../../foundations/global.css";
+import styles from "./styles.module.css";
 
 /**
  * A vertical card representing a course module. Displays a title,
@@ -49,6 +53,7 @@ function ModuleCard({
 
     return (
         <Wrapper
+            className={styles.rootDiv}
             data-testid={id}
             id={id}
             onClick={handleClick}
@@ -56,7 +61,6 @@ function ModuleCard({
                 cursor: onClick || href ? "pointer" : "default",
                 maxWidth,
                 minHeight,
-                ...$rootWrapperStyle,
             }}
         >
             <ProgressBar
@@ -71,11 +75,11 @@ function ModuleCard({
                         size={typeScale.sizeBodyS}
                         variant={locked ? "lock" : "unlock"}
                     />
-                    <p style={$titleStyles}>{title}</p>
+                    <p className={styles.title}>{title}</p>
                 </Spacer>
-                <p style={$summaryStyles}>{summary}</p>
+                <p className={styles.summary}>{summary}</p>
                     <Spacer direction="row" justifyContent="space-between">
-                        <p style={$timeLabelStyles}>
+                        <p className={styles.timeLabel}>
                             {timeLabel?.content &&
                                 (typeof timeLabel.icon === "string" ? (
                                     <Icon
@@ -189,17 +193,22 @@ function ProgressBar({
             aria-valuenow={progress ? Number(progress.slice(0, -1)) : 0}
         >
             <style>{$progressbarKeyframes}</style>
-            <span style={{
-                ...$progressbarStyles,
-                backgroundColor: progressBarProps.backgroundColor,
-            }}/>
-            <span style={{
-                ...$progressbarStyles,
-                animation: "pulse 1s infinite ease-in-out",
-                transition: "width 0.6s ease-out",
-                width: animatedProgress,
-                backgroundColor: progressBarProps.fillColor,
-            }}/>
+            <span
+                className={styles.progressBar}
+                style={{
+                    backgroundColor: progressBarProps.backgroundColor,
+                }
+            }/>
+            <span
+                className={[
+                    styles.progressBar,
+                    styles.progressBarOverlay
+                ].join(" ")}
+                style={{
+                    width: animatedProgress,
+                    backgroundColor: progressBarProps.fillColor,
+                }
+            }/>
         </div>
     )
 }

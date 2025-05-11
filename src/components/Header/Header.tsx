@@ -1,3 +1,5 @@
+"use server"
+
 import Icon from "../Icon";
 import Text from "../Text";
 import { TextVariants } from "../Text/types";

@@ -9,7 +9,13 @@ export interface ButtonProps {
     /**
      * A unique identifier for an HTML element
      */
-    id?: string
+    id?: string;
+    /**
+     * The callback function triggered when the button is clicked and is embedded within an HTML
+     * form. It can also be a URL of the program that is executed on the server when the form is submitted.
+     * @see https://developer.mozilla.org/en-US/docs/Web/API/HTMLButtonElement/formAction
+     */
+    formAction?: React.ButtonHTMLAttributes<HTMLButtonElement>["formAction"];
     /**
      * Callback function when element is clicked
      */
@@ -24,6 +30,13 @@ export interface ButtonProps {
      * @default ''
      */
     text?: React.ReactNode;
+    /**
+     * The behavior type of the button
+     *
+     * @default "button"
+     * @see https://developer.mozilla.org/en-US/docs/Web/API/HTMLButtonElement/type
+     */
+    type?: React.ButtonHTMLAttributes<HTMLButtonElement>["type"];
     /**
      * The variant determines the styling of the button.
      * @default 'primary'

@@ -1,3 +1,5 @@
+"use client"
+
 import { JSX, useEffect, useRef } from "react";
 import { $getSkeletonStyles, $rootVariantStyles } from "./styles";
 import { palette } from "../../foundations/palette";

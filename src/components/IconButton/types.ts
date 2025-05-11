@@ -1,8 +1,11 @@
 import React from "react";
 import { IconVariant } from "../../foundations/icons";
 import { IconSizes } from "../Icon/Icon";
+import { ButtonProps } from "../Button";
 
-export interface IconButtonProps extends React.AriaAttributes {
+export interface IconButtonProps extends
+    React.AriaAttributes,
+    Pick<ButtonProps, "formAction" | "type"> {
     /**
      * The icon color
      * @default "#1C1C1C"

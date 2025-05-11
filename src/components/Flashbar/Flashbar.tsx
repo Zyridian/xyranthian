@@ -1,16 +1,14 @@
+"use client"
+
 import { JSX } from "react";
-import {
-    $baseStyles,
-    $contentStyle,
-    $dismissButtonStyles,
-    $headerStyle,
-    $iconVariants,
-    $rootVariantStyles,
-} from "./styles";
+import { $iconVariants } from "./styles";
 import Icon from "../Icon";
 import { palette } from "../../foundations/palette";
 import Spacer from "../Spacer/Spacer";
 import { FlashbarProps } from "./types";
+import "../../foundations/global.css";
+import styles from "./styles.module.css";
+import IconButton from "../IconButton";
 
 /**
  * A persistent, full-width banner for global system
@@ -39,32 +37,21 @@ function Flashbar({
     return (
         <div
             {...rest}
+            className={[
+                styles.rootDiv,
+                styles[variant]
+            ].join(" ")}
             data-testid={id}
             id={id}
             aria-live={ariaLive}
             role={role}
             style={{
                 width,
-                ...$baseStyles,
-                ...$rootVariantStyles[variant],
                 alignItems: !(showHeader && showContent)
                     ? "center"
                     : 'flex-start',
             }}
         >
-            {dismissable && (
-                <button
-                    onClick={onDismiss}
-                    style={$dismissButtonStyles}
-                    {...dismissButtonProps}
-                >
-                    <Icon
-                        color={palette.neutral050}
-                        size="16px"
-                        variant="x-mark"
-                    />
-                </button>
-            )}
            <div>
                 <Icon
                     color={palette.neutral000}
@@ -72,9 +59,17 @@ function Flashbar({
                 />
             </div>
             <Spacer size="spacing1">
-                {showHeader && <p style={$headerStyle}>{header}</p>}
-                {showContent && <p style={$contentStyle}>{content}</p>}
+                {showHeader && <p className={styles.header}>{header}</p>}
+                {showContent && <p className={styles.content}>{content}</p>}
             </Spacer>
+            {dismissable && (
+                <IconButton
+                    color={palette.neutral050}
+                    icon="x-mark"
+                    onClick={onDismiss}
+                    size="16px"
+                />
+            )}
         </div>
     );
 }

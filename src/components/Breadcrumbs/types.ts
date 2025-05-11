@@ -45,14 +45,3 @@ export interface BreadcrumbsProps extends React.AriaAttributes {
      */
     separator?: IconVariant;
 }
-
-export interface GetBreadcrumbItemStyleProps {
-    /**
-     * Whether the breadcrumb item is for the current page
-     */
-    isCurrentPage?: boolean;
-    /**
-     * Whether the breadcrumb item is being hovered over
-     */
-    isHover?: boolean;
-}

@@ -1,0 +1,40 @@
+.constraintText {
+    cursor: default;
+    font-size: var(--sizeLabel);
+    margin-top: 1.5;
+    max-width: 100%;
+    word-break: break-word;
+}
+
+.inputRow {
+    align-items: center;
+    background-color: var(--neutral000);
+    border-color: var(--neutral300);
+    border-radius: var(--radiiMD);
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: none;
+    color: var(--neutral900);
+    cursor: text;
+    display: flex;
+    column-gap: var(--spacing2);
+    font-size: var(--sizeBodyS);
+    padding-left: var(--spacing4);
+    padding-right: var(--spacing4);
+    padding-top: var(--spacing2);
+    padding-bottom: var(--spacing2);
+}
+
+.inputRow:hover {
+    border-color: var(--neutral400);
+}
+
+.label {
+    cursor: default;
+    font-family: var(--fontInter);
+    font-size: var(--sizeLabel);
+    font-weight: var(--weightMedium);
+    line-height: 1.5;
+    margin-top: 0;
+    margin-bottom: var(--spacing1);
+}

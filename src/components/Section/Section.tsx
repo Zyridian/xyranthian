@@ -1,7 +1,10 @@
+"use server"
+
 import { JSX } from "react";
 import { SectionProps } from "./types";
 import { BaseElementWrappers } from "./constants";
-import { $boxWrapperStyles } from "./styles";
+import "../../foundations/global.css"
+import styles from "./styles.module.css";
 
 /**
  * A layout primitive to define visually and semantically distinct content
@@ -22,10 +25,12 @@ function Section({
             data-testid={id}
             id={id}
             role={role}
-            style={{
-                width,
-                ...(variant === "box" ? $boxWrapperStyles : {})
-            }}
+            className={
+                variant === "box"
+                    ? styles.boxWrapper
+                    : ""
+            }
+            style={{ width }}
         >
             {children}
         </Wrapper>

@@ -1,7 +1,8 @@
+"use server"
+
 import React, { JSX } from "react";
 import { Spacing } from "../../foundations/spacing";
 import { GridProps } from "./types";
-
 
 /**
  * A layout primitive with equally sized columns in

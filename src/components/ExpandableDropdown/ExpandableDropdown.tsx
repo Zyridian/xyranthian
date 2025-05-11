@@ -1,10 +1,12 @@
+"use client"
+
 import { JSX, useCallback, useState } from "react";
 import { typeScale } from "../../foundations/typography";
 import Icon from "../Icon";
-import { Spacing } from "../../foundations";
 import { palette } from "../../foundations/palette";
 import { ExpandableDropdownProps } from "./types";
-import { $contentStyles, $headerStyles, $rootVariantStyles } from "./styles";
+import "../../foundations/global.css";
+import styles from "./styles.module.css";
 
 /**
  * ExpandableDropdown reveals or hides secondary content inline with smooth transitions,\
@@ -26,21 +28,26 @@ function ExpandableDropdown({
     }, [])
 
     return (
-        <div style={$rootVariantStyles[variant]}>
+        <div
+            className={[
+                styles.rootDiv,
+                styles[variant]
+            ].join(" ")}
+        >
             <button
                 aria-expanded={ariaExpanded ?? isOpen}
+                className={styles.header}
                 data-testid={id}
                 id={id}
-                style={$headerStyles}
                 onClick={handleToggle}
                 {...rest}
             >
                 <span>{header}</span>
                 <span
-                    style={{
-                        transition: "transform 0.3s ease",
-                        transform: isOpen ? "rotate(90deg)" : "rotate(0deg)",
-                    }}
+                    className={[
+                        styles.icon,
+                        styles[`icon-isOpen-${isOpen}`]
+                    ].join(" ")}
                 >
                     <Icon
                         color={palette.neutral500}
@@ -50,12 +57,10 @@ function ExpandableDropdown({
                 </span>
             </button>
             <div
-                style={{
-                    ...$contentStyles,
-                    maxHeight: isOpen ? "500px" : "0px",
-                    opacity: isOpen ? 1 : 0,
-                    padding: isOpen ? Spacing.spacing5 : undefined,
-                }}
+                className={[
+                    styles.content,
+                    styles[`content-isOpen-${isOpen}`]
+                ].join(" ")}
             >
                 {content}
             </div>

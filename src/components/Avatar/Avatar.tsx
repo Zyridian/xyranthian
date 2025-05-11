@@ -1,7 +1,11 @@
-import { JSX, useMemo } from "react";
+"use server"
+
+import { JSX } from "react";
 import Icon from "../Icon";
 import { palette } from "../../foundations/palette";
 import { AvatarProps } from "./types";
+import "../../foundations/global.css"
+import styles from "./styles.module.css";
 
 /**
  * Displays a user's profile image inside a perfectly clipped
@@ -16,7 +20,7 @@ function Avatar({
     ...rest
 }: AvatarProps): JSX.Element {
     const placeholderImage = placeholder ?? (
-        <div style={{backgroundColor: palette.neutral050}}>
+        <div className={styles.avatar}>
             <Icon
                 color={palette.neutral400}
                 variant="avatar"
@@ -25,18 +29,18 @@ function Avatar({
         </div>
     );
 
-    const $rootDivStyles: React.CSSProperties = useMemo(() => ({
+    const $rootDivStyles: React.CSSProperties = {
         borderRadius: "50%",
         height: size,
         width: size,
         overflow: "hidden",
-    }), [size]);
+    }
 
-    const $imageStyles: React.CSSProperties = useMemo(() => ({
+    const $imageStyles: React.CSSProperties = {
         objectFit: "cover",
         height: size,
         width: size,
-    }), [size]);
+    };
 
     return (
         <div
@@ -57,9 +61,8 @@ function Avatar({
             )
             : placeholderImage
         }
-
         </div>
-    )
+    );
 }
 
 export default Avatar;

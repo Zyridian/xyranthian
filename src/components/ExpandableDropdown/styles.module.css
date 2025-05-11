@@ -1,0 +1,68 @@
+.rootDiv {
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    width: 100%;
+}
+
+.block {
+    border-color: var(--neutral200);
+    border-radius: 12px;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.inline {
+    border: none;
+}
+
+.header {
+    align-items: center;
+    background-color: transparent;
+    border-color: transparent;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    font-family: var(--fontInter);
+    font-size: var(--sizeBodyS);
+    font-weight: var(--weightRegular);
+    justify-content: space-between;
+    padding: var(--spacing4);
+}
+
+.icon {
+    transition: transform 0.3s ease;
+}
+
+.icon-isOpen-true {
+    transform: rotate(90deg);
+}
+
+.icon-isOpen-false {
+    transform: rotate(0deg);
+}
+
+.content {
+    background-color: transparent;
+    border-color: transparent;
+    color: var(--neutral600);
+    cursor: default;
+    font-family: var(--fontInter);
+    font-size: var(--sizeBodyS);
+    font-weight: var(--weightRegular);
+    overflow: hidden;
+    transition: max-height 0.3s ease, opacity 0.3s ease, padding 0.3s ease;
+}
+
+.content-isOpen-true {
+    max-height: 500px;
+    opacity: 1;
+    padding: var(--spacing5)
+}
+
+.content-isOpen-false {
+    max-height: 0;
+    opacity: 0;
+    padding: 0;
+}

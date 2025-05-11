@@ -16,6 +16,8 @@ export * from "./ChallengePrompt";
 export { default as ChallengePrompt } from "./ChallengePrompt";
 export * from "./CodeBlock";
 export { default as CodeBlock } from "./CodeBlock";
+export * from "./FormButton";
+export { default as FormButton } from "./FormButton";
 export * from "./ExpandableDropdown";
 export { default as ExpandableDropdown } from "./ExpandableDropdown";
 export * from "./Flashbar";

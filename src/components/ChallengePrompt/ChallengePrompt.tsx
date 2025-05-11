@@ -1,3 +1,5 @@
+"use client"
+
 import { JSX } from "react";
 import Spacer from "../Spacer/Spacer";
 import Icon from "../Icon";

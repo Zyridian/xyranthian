@@ -1,8 +1,11 @@
-import { JSX, useCallback, useState } from "react";
+"use client"
+
+import { JSX } from "react";
 import Icon, { IconSizes } from "../Icon/Icon";
 import { palette } from "../../foundations/palette";
 import { IconButtonProps } from "./types";
-import { $inlineButtonStyles } from "./styles";
+import "../../foundations/global.css";
+import styles from "./styles.module.css";
 
 /**
  * A clickable button that contains only an icon,
@@ -16,25 +19,12 @@ function IconButton ({
     size = IconSizes.SM,
     ...rest
 }: IconButtonProps): JSX.Element {
-    const [isHover, setIsHover] = useState(false);
-    const handleMouseEnter = useCallback(() => {
-        setIsHover(true);
-    }, []);
-    const handleMouseLeave= useCallback(() => {
-        setIsHover(false);
-    }, []);
-
     return (
         <button
+            className={styles.button}
             data-testid={id}
             id={id}
-            onMouseEnter={handleMouseEnter}
-            onMouseLeave={handleMouseLeave}
             onClick={onClick}
-            style={{
-                ...$inlineButtonStyles,
-                opacity: isHover ? 0.85 : 1,
-            }}
             type="button"
             {...rest}
         >

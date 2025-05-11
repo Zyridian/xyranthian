@@ -1,3 +1,5 @@
+"use client"
+
 import {
     createContext,
     useContext,
@@ -7,8 +9,9 @@ import {
     JSX,
 } from "react";
 import Toast from "./Toast";
-import { $toastContainerStyle } from "./styles";
 import { ShowToastInput, ToastContextValue, ToastInstance } from "./types";
+import "../../foundations/global.css"
+import styles from "./styles.module.css";
   
 let toastIdCounter = 0;
   
@@ -32,14 +35,14 @@ export function ToastProvider({ children }: { children: ReactNode }): JSX.Elemen
         setToasts((prev) => [...prev, newToast]);
 
         setTimeout(() => {
-        setToasts((prev) => prev.filter((t) => t.id !== id));
+            setToasts((prev) => prev.filter((t) => t.id !== id));
         }, duration);
     }, []);
 
     return (
         <ToastContext.Provider value={{ showToast }}>
             {children}
-            <div style={$toastContainerStyle}>
+            <div className={styles.provider}>
                 {toasts.map(({ id, content, variant }) => (
                 <Toast key={id} id={id} content={content} variant={variant} />
                 ))}
