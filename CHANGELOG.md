@@ -1,3 +1,9 @@
+## [1.1.0-beta.16](https://github.com/Zyridian/xyranthian/compare/v1.1.0-beta.15...v1.1.0-beta.16) (2025-05-11)
+
+### Features
+
+* add new directives to components for NEXTJS ([fd1ddb5](https://github.com/Zyridian/xyranthian/commit/fd1ddb52323482f1b0b35a4fb8512a93b2aae9d5))
+
 ## [1.1.0-beta.15](https://github.com/Zyridian/xyranthian/compare/v1.1.0-beta.14...v1.1.0-beta.15) (2025-05-04)
 
 ### Bug Fixes
