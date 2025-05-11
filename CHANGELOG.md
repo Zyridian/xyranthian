@@ -1,3 +1,9 @@
+## [1.1.0-beta.20](https://github.com/Zyridian/xyranthian/compare/v1.1.0-beta.19...v1.1.0-beta.20) (2025-05-11)
+
+### Features
+
+* new name prop for Textfield ([bb963b8](https://github.com/Zyridian/xyranthian/commit/bb963b8f6a4ebe73ab1c7f342f7df5228e3300ad))
+
 ## [1.1.0-beta.19](https://github.com/Zyridian/xyranthian/compare/v1.1.0-beta.18...v1.1.0-beta.19) (2025-05-11)
 
 ### Bug Fixes
