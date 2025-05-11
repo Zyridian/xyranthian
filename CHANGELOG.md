@@ -1,3 +1,9 @@
+## [1.1.0-beta.18](https://github.com/Zyridian/xyranthian/compare/v1.1.0-beta.17...v1.1.0-beta.18) (2025-05-11)
+
+### Bug Fixes
+
+* export module.css ([97e5bef](https://github.com/Zyridian/xyranthian/commit/97e5befc2ffcae0d3ea8bde61ccb4b22f53c9129))
+
 ## [1.1.0-beta.17](https://github.com/Zyridian/xyranthian/compare/v1.1.0-beta.16...v1.1.0-beta.17) (2025-05-11)
 
 ### Bug Fixes
