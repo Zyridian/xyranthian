@@ -1,3 +1,9 @@
+## [1.1.0-beta.17](https://github.com/Zyridian/xyranthian/compare/v1.1.0-beta.16...v1.1.0-beta.17) (2025-05-11)
+
+### Bug Fixes
+
+* export foundations CSS ([272f0ea](https://github.com/Zyridian/xyranthian/commit/272f0eac40b3030713a42d135efeb8bf77a6a369))
+
 ## [1.1.0-beta.16](https://github.com/Zyridian/xyranthian/compare/v1.1.0-beta.15...v1.1.0-beta.16) (2025-05-11)
 
 ### Features
