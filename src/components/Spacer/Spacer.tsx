@@ -1,5 +1,3 @@
-"use server"
-
 import React, { JSX } from "react";
 import { BaseElementWrappers } from "./constants";
 import { Spacing } from "../../foundations/spacing";

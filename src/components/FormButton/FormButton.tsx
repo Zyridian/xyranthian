@@ -1,4 +1,3 @@
-"use server"
 import { JSX } from "react";
 import "../../foundations/global.css"
 import styles from "../Button/styles.module.css";

@@ -1,5 +1,3 @@
-"use server"
-
 import { JSX } from "react";
 import ExpandableDropdown from "../ExpandableDropdown";
 import Spacer from "../Spacer";

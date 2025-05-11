@@ -1,5 +1,3 @@
-"use server"
-
 import { JSX } from "react";
 import Avatar from "../Avatar";
 import { Spacing } from "../../foundations/spacing";

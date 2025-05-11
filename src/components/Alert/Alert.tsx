@@ -1,5 +1,3 @@
-"use server"
-
 import React from "react";
 import Icon from "../Icon/Icon";
 import { AlertProps } from "./types";

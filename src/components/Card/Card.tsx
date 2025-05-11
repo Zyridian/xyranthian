@@ -1,5 +1,3 @@
-"use server"
-
 import { JSX } from "react";
 import { CardProps } from "./types";
 import "../../foundations/global.css"

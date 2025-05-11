@@ -1,5 +1,3 @@
-"use server"
-
 import { JSX } from "react";
 import { BaseElementWrappers } from "./constants";
 import { PageContainerProps } from "./types";

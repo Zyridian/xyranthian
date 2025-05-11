@@ -1,5 +1,3 @@
-"use server"
-
 import React, { JSX } from "react";
 import { palette } from "../../foundations/palette";
 import { BreadcrumbsProps } from "./types";

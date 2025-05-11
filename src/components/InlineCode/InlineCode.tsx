@@ -1,5 +1,3 @@
-"use server"
-
 import { JSX } from "react";
 import { palette } from "../../foundations/palette";
 import { typeScale } from "../../foundations/typography";

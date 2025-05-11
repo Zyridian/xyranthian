@@ -1,5 +1,3 @@
-"use server"
-
 import { JSX } from "react";
 import Icon from "../Icon";
 import { palette } from "../../foundations/palette";
