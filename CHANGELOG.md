@@ -1,3 +1,9 @@
+## [1.1.0-beta.21](https://github.com/Zyridian/xyranthian/compare/v1.1.0-beta.20...v1.1.0-beta.21) (2025-06-01)
+
+### Features
+
+* new CSS properties for Button ([9369bed](https://github.com/Zyridian/xyranthian/commit/9369bed6bbcc53cf62fa0e07ddf816d791acbb2a))
+
 ## [1.1.0-beta.20](https://github.com/Zyridian/xyranthian/compare/v1.1.0-beta.19...v1.1.0-beta.20) (2025-05-11)
 
 ### Features
