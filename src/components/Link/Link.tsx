@@ -52,8 +52,9 @@ function Link({
             onFocus={onFocus}
             role="link"
             style={{
-                ...hoverStyle,
+                color,
                 textAlign: align,
+                ...hoverStyle,
                 ...styles,
                 fontSize: fontSize ?? styles.fontSize,
                 margin: 0,
