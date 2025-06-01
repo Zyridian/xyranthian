@@ -11,6 +11,9 @@ const meta = {
   },
   tags: ['autodocs'],
   argTypes: {
+    background: {
+      control: 'text'
+    },
     backgroundColor: {
       control: 'color',
     },
@@ -19,6 +22,9 @@ const meta = {
     },
     borderWidth: {
       control: 'number',
+    },
+    children: {
+      control: 'text',
     },
     color: {
       control: 'color',

@@ -35,6 +35,9 @@ function Link({
 
     const Wrapper = BaseElementWrappers[baseElement];
     const styles = Typography[variant];
+    const hoverStyle = isHover
+        ? { color: hoverColor }
+        : { opacity: 0.85 }
 
     return (
         <Wrapper
@@ -49,7 +52,7 @@ function Link({
             onFocus={onFocus}
             role="link"
             style={{
-                color: isHover ? hoverColor : color,
+                ...hoverStyle,
                 textAlign: align,
                 ...styles,
                 fontSize: fontSize ?? styles.fontSize,

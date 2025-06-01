@@ -7,6 +7,14 @@
     padding-right: var(--spacing4);
 }
 
+.container {
+    border-radius: var(--radiiMD);
+}
+
+.container:hover {
+    opacity: 0.85;
+}
+
 .destructive-button {
     background-color: var(--red600);
     border-color: transparent;

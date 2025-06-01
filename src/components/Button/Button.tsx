@@ -25,8 +25,15 @@ function Button ({
     variant = 'primary',
     ...rest
 }: ButtonProps): JSX.Element {
+    const hasBackground = Boolean(background) || Boolean(backgroundColor);
+    const containerProps = hasBackground
+        ? {
+            className: styles.container,
+            style: { background, backgroundColor}
+        }
+        : {};
     return (
-        <span>
+        <div {...containerProps}>
             <button
                 data-testid={id}
                 id={id}
@@ -38,8 +45,13 @@ function Button ({
                     disabled ? styles.disabled : ""
                 ].join(" ")}
                 style={{
-                    background,
-                    backgroundColor,
+                    ...(
+                        hasBackground
+                            ? {
+                                backgroundColor: 'transparent',
+                            }
+                            : {}
+                    ),
                     borderColor,
                     borderWidth,
                     color,
@@ -49,7 +61,7 @@ function Button ({
             >
                 {children ?? text}
             </button>
-        </span>
+        </div>
     );
 }
 
