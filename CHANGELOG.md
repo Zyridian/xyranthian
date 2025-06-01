@@ -1,3 +1,9 @@
+## [1.1.0-beta.24](https://github.com/Zyridian/xyranthian/compare/v1.1.0-beta.23...v1.1.0-beta.24) (2025-06-01)
+
+### Bug Fixes
+
+* reintroduce color ([f9f1c0e](https://github.com/Zyridian/xyranthian/commit/f9f1c0e6efec065b4c90d37b44de7445eac93c53))
+
 ## [1.1.0-beta.23](https://github.com/Zyridian/xyranthian/compare/v1.1.0-beta.22...v1.1.0-beta.23) (2025-06-01)
 
 ### Bug Fixes
