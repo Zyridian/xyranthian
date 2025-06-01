@@ -1,6 +1,29 @@
+import React from "react";
+
 export type ButtonSizes = "SM" | "MD" | "LG";
 
 export interface ButtonProps {
+    /**
+     * The background color of the button
+     */
+    backgroundColor?: React.CSSProperties["backgroundColor"];
+    /**
+     * The boder color of the button
+     */
+    borderColor?: React.CSSProperties["borderColor"];
+    /**
+     * The boder width of the button
+     */
+    borderWidth?: React.CSSProperties["borderWidth"];
+    /**
+     * The text displayed in the button element
+     * @default ''
+     */
+    children?: React.ReactNode;
+    /**
+     * The button text color
+     */
+    color?: React.CSSProperties["color"];
     /**
      * Whether the button is disabled. When enabled, it prevents clicks.
      * @default false
@@ -28,6 +51,7 @@ export interface ButtonProps {
     /**
      * The text displayed in the button element
      * @default ''
+     * @deprecated  Use `children` prop instead
      */
     text?: React.ReactNode;
     /**

@@ -11,6 +11,18 @@ const meta = {
   },
   tags: ['autodocs'],
   argTypes: {
+    backgroundColor: {
+      control: 'color',
+    },
+    borderColor: {
+      control: 'color',
+    },
+    borderWidth: {
+      control: 'number',
+    },
+    color: {
+      control: 'color',
+    },
     text: {
         control: 'text',
         table: {

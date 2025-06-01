@@ -11,6 +11,11 @@ import styles from "./styles.module.css";
  * For server-side button, use `FormButton`
  */
 function Button ({
+    backgroundColor,
+    borderColor,
+    borderWidth,
+    children,
+    color,
     disabled = false,
     id,
     size = "SM",
@@ -31,10 +36,16 @@ function Button ({
                     styles[`${variant}-button`],
                     disabled ? styles.disabled : ""
                 ].join(" ")}
+                style={{
+                    backgroundColor,
+                    borderColor,
+                    borderWidth,
+                    color,
+                }}
                 type={type}
                 {...rest}
             >
-                {text}
+                {children ?? text}
             </button>
         </span>
     );
