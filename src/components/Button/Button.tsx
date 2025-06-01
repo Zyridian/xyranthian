@@ -11,6 +11,7 @@ import styles from "./styles.module.css";
  * For server-side button, use `FormButton`
  */
 function Button ({
+    background,
     backgroundColor,
     borderColor,
     borderWidth,
@@ -37,6 +38,7 @@ function Button ({
                     disabled ? styles.disabled : ""
                 ].join(" ")}
                 style={{
+                    background,
                     backgroundColor,
                     borderColor,
                     borderWidth,

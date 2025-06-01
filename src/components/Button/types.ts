@@ -4,6 +4,10 @@ export type ButtonSizes = "SM" | "MD" | "LG";
 
 export interface ButtonProps {
     /**
+     * The background of the button
+     */
+    background?: React.CSSProperties["background"];
+    /**
      * The background color of the button
      */
     backgroundColor?: React.CSSProperties["backgroundColor"];
