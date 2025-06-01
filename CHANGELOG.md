@@ -1,3 +1,9 @@
+## [1.1.0-beta.23](https://github.com/Zyridian/xyranthian/compare/v1.1.0-beta.22...v1.1.0-beta.23) (2025-06-01)
+
+### Bug Fixes
+
+* handle hover and color states for Button and link ([83f3b18](https://github.com/Zyridian/xyranthian/commit/83f3b18316edc4e463c2b3c1bffb953c4eb4b2a7))
+
 ## [1.1.0-beta.22](https://github.com/Zyridian/xyranthian/compare/v1.1.0-beta.21...v1.1.0-beta.22) (2025-06-01)
 
 ### Features
