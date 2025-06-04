@@ -8,6 +8,7 @@ import { SvgCheckmarkCircleOutline } from "./checkmark-circle-outline";
 import { SvgChevronRight } from "./chevron-right";
 import { SvgClipboard } from "./copy";
 import { SvgClock } from "./clock";
+import { SvgCompass } from "./compass";
 import { SvgExclamationCircle } from "./exclamation-circle";
 import { SvgExclamationTriangle } from "./exclamation-triangle";
 import { SvgExclamationTriangleOutline } from "./exclamation-triangle-outline";
@@ -25,10 +26,13 @@ import { SvgChevronLeft } from "./chevron-left";
 import { SvgChevronUp } from "./chevron-up";
 import { SvgChevronDown } from "./chevron-down";
 import { SvgSearch } from "./search";
+import { SvgCode } from "./code";
+import { SvgAward } from "./award";
 
 export const Icons = {
     "arrow-up-right": SvgArrowUpRight,
     "avatar": SvgAvatar,
+    "award": SvgAward,
     "caret-down": SvgCaretDown,
     "caret-left": SvgCaretLeft,
     "caret-right": SvgCaretRight,
@@ -39,6 +43,8 @@ export const Icons = {
     "chevron-left": SvgChevronLeft,
     "chevron-right": SvgChevronRight,
     "chevron-up": SvgChevronUp,
+    "code": SvgCode,
+    "compass": SvgCompass,
     "copy": SvgClipboard,
     "clock": SvgClock,
     "exclamation-circle": SvgExclamationCircle,

@@ -25,8 +25,7 @@ function Icon ({
 
     return (
         <Icon color={color} size={size} />
-    )
-
+    );
 }
 
 export default React.memo(Icon);
