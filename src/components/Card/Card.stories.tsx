@@ -10,6 +10,14 @@ const meta = {
     layout: 'centered',
   },
   tags: ['autodocs'],
+  argTypes: {
+    borderColor: {
+      control: 'color'
+    },
+    borderWidth: {
+      control: 'number',
+    }
+  },
   args: {
     backgroundColor: "#FFFFFF",
     maxWidth:  "200px",

@@ -9,6 +9,8 @@ import styles from "./styles.module.css";
  */
 function Card({
     backgroundColor = "#FFFFFF",
+    borderColor,
+    borderWidth,
     children,
     id,
     maxWidth = "200px",
@@ -20,6 +22,8 @@ function Card({
             className={styles.rootDiv}
             style={{
                 backgroundColor,
+                borderColor,
+                borderWidth,
                 maxWidth,
             }}
         >

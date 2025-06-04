@@ -5,6 +5,14 @@ export interface CardProps {
      */
     backgroundColor?: string;
     /**
+     * The boder color of the card
+     */
+    borderColor?: React.CSSProperties["borderColor"];
+    /**
+     * The boder width of the card
+     */
+    borderWidth?: React.CSSProperties["borderWidth"];
+    /**
      * Content displayed within the card
      */
     children?: Array<React.ReactNode> | React.ReactNode;
