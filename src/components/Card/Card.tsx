@@ -14,6 +14,7 @@ function Card({
     children,
     id,
     maxWidth = "200px",
+    minHeight,
 }: CardProps): JSX.Element {
     return (
         <div
@@ -25,6 +26,7 @@ function Card({
                 borderColor,
                 borderWidth,
                 maxWidth,
+                minHeight,
             }}
         >
             {children}

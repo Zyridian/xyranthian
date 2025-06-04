@@ -25,4 +25,8 @@ export interface CardProps {
      * @default "200px"
      */
     maxWidth?: React.CSSProperties["maxWidth"];
+    /**
+     * The minimum height of the card
+     */
+    minHeight?: React.CSSProperties["minHeight"];
 }

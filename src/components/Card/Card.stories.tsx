@@ -16,6 +16,9 @@ const meta = {
     },
     borderWidth: {
       control: 'number',
+    },
+    minHeight: {
+      control: 'number',
     }
   },
   args: {
