@@ -1,3 +1,9 @@
+## [1.1.0-beta.26](https://github.com/Zyridian/xyranthian/compare/v1.1.0-beta.25...v1.1.0-beta.26) (2025-06-04)
+
+### Features
+
+* new Card props ([4048ac3](https://github.com/Zyridian/xyranthian/commit/4048ac3cb4fc7dec25d95f8feff4f030f22fd08b))
+
 ## [1.1.0-beta.25](https://github.com/Zyridian/xyranthian/compare/v1.1.0-beta.24...v1.1.0-beta.25) (2025-06-04)
 
 ### Features
