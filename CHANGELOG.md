@@ -1,3 +1,9 @@
+## [1.1.0-beta.27](https://github.com/Zyridian/xyranthian/compare/v1.1.0-beta.26...v1.1.0-beta.27) (2025-06-04)
+
+### Features
+
+* new minimum height ([2663139](https://github.com/Zyridian/xyranthian/commit/2663139422233a251815e5b36771c3f90832746c))
+
 ## [1.1.0-beta.26](https://github.com/Zyridian/xyranthian/compare/v1.1.0-beta.25...v1.1.0-beta.26) (2025-06-04)
 
 ### Features
