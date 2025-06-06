@@ -1,3 +1,9 @@
+## [1.1.0-beta.29](https://github.com/Zyridian/xyranthian/compare/v1.1.0-beta.28...v1.1.0-beta.29) (2025-06-06)
+
+### Features
+
+* new width prop for button ([f2138c2](https://github.com/Zyridian/xyranthian/commit/f2138c2a399644693d84e58f4c4980e068168cb6))
+
 ## [1.1.0-beta.28](https://github.com/Zyridian/xyranthian/compare/v1.1.0-beta.27...v1.1.0-beta.28) (2025-06-06)
 
 ### Features
