@@ -18,6 +18,7 @@ function Button ({
     children,
     color,
     disabled = false,
+    fullWidth,
     id,
     size = "SM",
     text,
@@ -25,13 +26,18 @@ function Button ({
     variant = 'primary',
     ...rest
 }: ButtonProps): JSX.Element {
+    const width = fullWidth ? "100%" : undefined;
     const hasBackground = Boolean(background) || Boolean(backgroundColor);
     const containerProps = hasBackground
         ? {
             className: styles.container,
-            style: { background, backgroundColor}
+            style: {
+                background,
+                backgroundColor,
+                width,
+            }
         }
-        : {};
+        : { width };
     return (
         <div {...containerProps}>
             <button

@@ -44,6 +44,12 @@ export interface ButtonProps {
      */
     formAction?: React.ButtonHTMLAttributes<HTMLButtonElement>["formAction"];
     /**
+     * Whether the width of the button should stretch the entire width
+     * of the container.
+     * @default false
+     */
+    fullWidth?: boolean;
+    /**
      * Callback function when element is clicked
      */
     onClick?: (event: React.MouseEvent<HTMLButtonElement, MouseEvent>) => void;
