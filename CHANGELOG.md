@@ -1,3 +1,9 @@
+## [1.1.0-beta.28](https://github.com/Zyridian/xyranthian/compare/v1.1.0-beta.27...v1.1.0-beta.28) (2025-06-06)
+
+### Features
+
+* modify button sizes ([db76682](https://github.com/Zyridian/xyranthian/commit/db766829905fb121896088371a646f2655aa544b))
+
 ## [1.1.0-beta.27](https://github.com/Zyridian/xyranthian/compare/v1.1.0-beta.26...v1.1.0-beta.27) (2025-06-04)
 
 ### Features
