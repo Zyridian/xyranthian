@@ -73,12 +73,15 @@
 
 .size-SM {
     font-size: var(--sizeLabel);
+    height: 40px;
 }
 
 .size-MD {
     font-size: var(--sizeBodyS);
+    height: 45px;
 }
 
 .size-LG {
     font-size: var(--sizeBodyL);
+    height: 55px;
 }
