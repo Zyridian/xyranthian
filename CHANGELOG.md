@@ -1,3 +1,9 @@
+## [1.1.0-beta.32](https://github.com/Zyridian/xyranthian/compare/v1.1.0-beta.31...v1.1.0-beta.32) (2025-06-07)
+
+### Bug Fixes
+
+* textfield colors ([9285136](https://github.com/Zyridian/xyranthian/commit/9285136a47ce5c626552409bb06d3d527a60849d))
+
 ## [1.1.0-beta.31](https://github.com/Zyridian/xyranthian/compare/v1.1.0-beta.30...v1.1.0-beta.31) (2025-06-07)
 
 ### Bug Fixes
