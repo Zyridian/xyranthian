@@ -1,3 +1,9 @@
+## [1.1.0-beta.31](https://github.com/Zyridian/xyranthian/compare/v1.1.0-beta.30...v1.1.0-beta.31) (2025-06-07)
+
+### Bug Fixes
+
+* fix button's full width ([5502992](https://github.com/Zyridian/xyranthian/commit/550299265900bd23f1fdf1e8c0302b9221f6afdd))
+
 ## [1.1.0-beta.30](https://github.com/Zyridian/xyranthian/compare/v1.1.0-beta.29...v1.1.0-beta.30) (2025-06-07)
 
 ### Features
