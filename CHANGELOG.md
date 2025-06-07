@@ -1,3 +1,9 @@
+## [1.1.0-beta.30](https://github.com/Zyridian/xyranthian/compare/v1.1.0-beta.29...v1.1.0-beta.30) (2025-06-07)
+
+### Features
+
+* new textfield prop ([2c126a8](https://github.com/Zyridian/xyranthian/commit/2c126a89dbe112b3c2394468d949e6f8009422c9))
+
 ## [1.1.0-beta.29](https://github.com/Zyridian/xyranthian/compare/v1.1.0-beta.28...v1.1.0-beta.29) (2025-06-06)
 
 ### Features
