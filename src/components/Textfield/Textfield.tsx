@@ -7,6 +7,7 @@ import { palette } from "../../foundations/palette";
 import { typeScale } from "../../foundations/typography";
 import { TextfieldProps } from "./types";
 import {
+    $constraintTextStyle,
     $inputRowIconColorVariants,
     $inputRowStylesVariants,
     $labelStylesVariants,
@@ -18,6 +19,7 @@ import styles from "./styles.module.css";
 
 function Textfield({
     constraintText,
+    darkMode = false,
     disabled = false,
     endIcon,
     error = false,
@@ -53,7 +55,7 @@ function Textfield({
 
     const $inputRowStyles = $inputRowStylesVariants[visualState];
     const $inputRowIconColor = $inputRowIconColorVariants[visualState];
-    const $labelStyles = $labelStylesVariants[visualState];
+    const $labelStyles = $labelStylesVariants[visualState](darkMode);
 
     return (
         <div style={{maxWidth, width}}>
@@ -132,7 +134,7 @@ function Textfield({
                         <span
                             className={styles.constraintText}
                             style={{
-                                color: error ? palette.error500 : palette.neutral500,
+                                color: error ? palette.error500 : $constraintTextStyle(darkMode),
                             }}
                         >
                             {constraintText}

@@ -38,27 +38,47 @@ export const $inputRowStylesVariants: Record<TextfieldVisualStates, React.CSSPro
     },
 }
 
-export const $labelStylesVariants: Record<TextfieldVisualStates, any> = {
-    default: {
-        color: palette.neutral700,
-        iconColor: palette.neutral500,
-    },
-    disabled: {
+export const $labelStylesVariants: Record<
+    TextfieldVisualStates,
+    (darkmode: boolean) => {color: string; iconColor: string}
+> = {
+    default: (darkmode: boolean) => darkmode
+        ? {
+            color: palette.neutral000,
+            iconColor: palette.neutral000,
+        }
+        : {
+            color: palette.neutral600,
+            iconColor: palette.neutral600,
+        },
+    disabled: () => ({
         color: palette.neutral500,
         iconColor: palette.neutral300,
-    },
-    hover: {
-        iconColor: palette.neutral500,
-    },
-    error: {
+    }),
+    hover: (darkmode) => darkmode
+        ? {
+            color: palette.neutral050,
+            iconColor: palette.neutral050,
+        }
+        : {
+        color: palette.neutral900,
+        iconColor: palette.neutral900,
+    }   ,
+    error: () => ({
         color: palette.error500,
         iconColor: palette.error500,
-    },
-    readonly: {
+    }),
+    readonly: () => ({
         color: palette.neutral600,
         iconColor: palette.neutral500,
-    }
+    })
 };
+
+export const $constraintTextStyle: (darkmode: boolean) => string = (darkmode) => {
+    return darkmode
+        ? palette.neutral200
+        : palette.neutral500
+}
 
 export const $rootInputRowStyles: React.CSSProperties = {
     alignItems: "center",

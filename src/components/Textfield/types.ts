@@ -17,6 +17,10 @@ export interface TextfieldProps {
      */
     constraintText?: string;
     /**
+     * Whether the TextInput is in dark mode
+     */
+    darkMode?: boolean;
+    /**
      * Whether the TextInput is in disabled state.
      * @default false
      */
