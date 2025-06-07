@@ -61,6 +61,7 @@ function Button ({
                     borderColor,
                     borderWidth,
                     color,
+                    width,
                 }}
                 type={type}
                 {...rest}
