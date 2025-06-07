@@ -1,8 +1,24 @@
-import { Radii, Spacing } from "../../foundations";
 import { palette } from "../../foundations/palette";
-import { typeScale } from "../../foundations/typography";
 import { TextfieldVisualStates } from "./types";
 
+export const $inputStyles = ({
+    disabled,
+    readonly,
+    error,
+}: {
+    disabled?: boolean;
+    readonly?: boolean
+    error?: boolean;
+}) => {
+    if (disabled || readonly) {
+        return palette.neutral500;
+    }
+    if (error) {
+        return palette.error500;
+    }
+
+    return palette.neutral600;
+}
 export const $inputRowIconColorVariants: Record<TextfieldVisualStates, string> = {
     default: palette.neutral500,
     disabled: palette.neutral300,
@@ -79,31 +95,3 @@ export const $constraintTextStyle: (darkmode: boolean) => string = (darkmode) =>
         ? palette.neutral200
         : palette.neutral500
 }
-
-export const $rootInputRowStyles: React.CSSProperties = {
-    alignItems: "center",
-    backgroundColor: palette.neutral000,
-    borderColor: palette.neutral300,
-    borderRadius: Radii.md,
-    borderStyle: "solid",
-    borderWidth: "1px",
-    boxShadow: "none",
-    color: palette.neutral900,
-    cursor: "text",
-    display: "flex",
-    columnGap: Spacing.spacing2,
-    height: "40px",
-    fontSize: typeScale.sizeBodyS,
-    paddingLeft: Spacing.spacing4,
-    paddingRight: Spacing.spacing4,
-};
-
-export const $rootInputStyles: React.CSSProperties = {
-    backgroundColor: "transparent",
-    border: "none",
-    fontFamily: typeScale.fontInter,
-    fontSize: typeScale.sizeBodyS,
-    fontWeight: typeScale.weightRegular,
-    outline: "none",
-    width: "100%",
-};

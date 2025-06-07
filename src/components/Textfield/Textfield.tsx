@@ -10,8 +10,8 @@ import {
     $constraintTextStyle,
     $inputRowIconColorVariants,
     $inputRowStylesVariants,
+    $inputStyles,
     $labelStylesVariants,
-    $rootInputStyles,
 } from "./styles";
 import { getVisualState } from "./utils";
 import "../../foundations/global.css"
@@ -104,6 +104,7 @@ function Textfield({
                         aria-disabled={disabled}
                         aria-invalid={error}
                         data-testid={internalId}
+                        className={styles.input}
                         disabled={disabled}
                         placeholder={placeholder}
                         id={internalId}
@@ -116,7 +117,9 @@ function Textfield({
                         onChange={onChange}
                         value={value}
                         readOnly={readonly}
-                        style={$rootInputStyles}
+                        style={{
+                            color: $inputStyles({disabled, readonly, error})
+                        }}
                         ref={ref}
                     />
                     {

@@ -38,3 +38,14 @@
     margin-top: 0;
     margin-bottom: var(--spacing1);
 }
+
+.input {
+    background-color: transparent;
+    border: none;
+    color: var(--neutral700);
+    font-family: var(--fontInter);
+    font-size: var(--sizeBodyS);
+    font-weight: var(--weightRegular);
+    outline: none;
+    width: 100%;
+}
